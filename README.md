@@ -1,2 +1,3 @@
-# react-io
-My new(er) personal website built with react!
+# Newer Version of duncangrubbs.github.io
+
+This project is built with react, tested with Jest, and linted with eslint.
