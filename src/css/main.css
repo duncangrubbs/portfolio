@@ -1,5 +1,76 @@
+/* GENERAL STYLES */
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5em;
+  color: darkslategray;
+}
+
+/* COMPONENT STYLES */
+
+/* NavBar Styles */
+.navbar {
+  display: flex;
+  position: absolute;
+  background: #FFF;
+  color: #222;
+  height: 64px;
+  width: 100vw;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,0.08);
+}
+
+.navbar__left {
+  display: flex;
+  flex-grow: 5;
+  height: 100%;
+  padding: 8px 16px;
+  align-items: center;
+}
+
+.navbar__right {
+  display: flex;
+  flex-grow: 5;
+  height: 100%;
+  padding: 8px 16px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar__link {
+  margin: 0 10px;
+  font-size: 1.1em;
+  color: rgb(68, 68, 68);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.navbar__link:hover{
+  color: black;
+  transform: translateY(-2px);
+}
+
+
+/* ROUTE STYLES */
+/* Home Styles */
+.home__content {
+  display: grid;
+  width: 100vw;
+  padding: 64px 0 0 0;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% auto 30%;
+  grid-gap: 16px;
+}
+
+.home__grid-item {
+  padding: 16px;
 }

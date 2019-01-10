@@ -1,5 +1,5 @@
 /**
- * @file routes.js
+ * @file index.js
  * @description All client-side routes for react-router.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
  * @version 0.1.0
