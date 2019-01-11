@@ -7,9 +7,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/main.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+
+// CSS
+import './css/main.css';
+import './css/components.css';
+import './css/mobile.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
