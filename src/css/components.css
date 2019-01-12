@@ -112,5 +112,25 @@
   font-size: 1.1em;
   margin: 4px 0;
   color: transparent;
-  text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; 
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+/* ProjectCard Styles */
+.projectcard {
+  display: flex;
+  align-items: flex-end;
+  width: 90%;
+  height: 150px;
+  padding: 12px;
+  cursor: pointer;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('../images/barterout.png');
+  border-radius: 4px;
+}
+
+.projectcard__title {
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  color: var(--theme-light-color);
+  font-size: 1.5em;
 }

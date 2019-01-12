@@ -9,6 +9,8 @@ import React from 'react';
 
 import NavBar from '../components/NavBar';
 import WritingCard from '../components/WritingCard';
+import ProjectCard from '../components/ProjectCard';
+
 
 const Home = () => (
   <div>
@@ -22,10 +24,10 @@ const Home = () => (
           in Computer Science and a minor in Mathematics. I love web and app
           development and have experience with Java, Javascript, Python, C, and R.
           This website was built from scratch using React. 
-          You can find me on <a rel="noopenner" href="https://github.com/duncangrubbs"> Github</a>,
-          <a rel="noopenner" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>,
-          <a rel="noopenner" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>,
-          and <a rel="noopenner" href="https://www.instagram.com/slamdunkkkkk/"> Instagram</a>.
+          You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a>,
+          <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>,
+          <a rel="noopenner external" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>,
+          and <a rel="noopenner external" href="https://www.instagram.com/slamdunkkkkk/"> Instagram</a>.
         </p>
       </div>
       <div className="home__grid-item">
@@ -34,6 +36,12 @@ const Home = () => (
       </div>
       <div className="home__grid-item">
       <h1>Work</h1>
+      <div className="home__projects">
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </div>
       </div>
     </div>
   </div>
