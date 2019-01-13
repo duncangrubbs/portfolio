@@ -5,28 +5,15 @@
  * @version 0.1.0
  */
 
-import React, { Component } from 'react';
-import propTypes from 'prop-types';
+import React from 'react';
 
-class WritingCard extends Component {
-  componentDidMount() {
-    console.log(this.props); // eslint-disable-line
-  }
-
-  render() {
-    return (
-      <div className="writingcard">
-        <div className="writingcard__title">The Role of Radicals</div>
-        <div className="writingcard__content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-      </div>
-    );
-  }
-}
-
-WritingCard.propTypes = {
-  src: propTypes.string.isRequired,
-};
+const WritingCard = () => (
+  <div className="writingcard">
+    <div className="writingcard__title">A Growing Divide: America&rsquo;s Struggle with Polarization</div>
+    <div className="writingcard__content">
+    America has always championed open political discourse and diversity of beliefs, but recently, scholars have begun to see a concerning trend in the movement of Americans’ beliefs. This trend can be described as political polarization, and the resulting changes have undermined healthy political discussions and thought in the American public. Without these key factors of democracy, the U.S. government has become much more partisan and has moved slower to provide basic resources and policy to the public. While there are many proposed causes of these issues, research points to the popularization of the internet and the resulting changes to the media as a large factor in the increasing severity of this political polarization.
+    </div>
+  </div>
+);
 
 export default WritingCard;

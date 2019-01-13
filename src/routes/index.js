@@ -12,9 +12,11 @@ import {
 } from 'react-router-dom';
 
 import Home from './Home';
+import Polarization from './writing/Polarization';
 
 export default (
   <Switch>
     <Route exact path="/" component={Home} />
+    <Route exact path="/writing" component={Polarization} />
   </Switch>
 );

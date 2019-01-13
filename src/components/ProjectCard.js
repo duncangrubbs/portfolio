@@ -5,12 +5,27 @@
  * @version 0.1.0
  */
 
-import React from 'react';
+import React, { Component } from 'react';
+import propTypes from 'prop-types';
 
-const ProjectCard = () => (
-  <div className="projectcard">
-    <div className="projectcard__title">Let's Go</div>
-  </div>
-);
+class ProjectCard extends Component {
+  componentDidMount() {
+    const self = document.getElementById(this.props._id);
+    self.style.backgroundImage = `url('../images/barterout.png')`;
+  }
+
+  render() {
+    return (
+      <div className="projectcard" id={this.props._id}>
+        <div className="projectcard__title">{this.props.title}</div>
+      </div>
+    );
+  }
+}
+
+ProjectCard.propTypes = {
+  _id: propTypes.string.isRequired,
+  title: propTypes.string.isRequired,
+};
 
 export default ProjectCard;

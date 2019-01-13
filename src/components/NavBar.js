@@ -15,9 +15,28 @@ const NavBar = () => (
       <h2>Duncan Grubbs</h2>
     </div>
     <div className="navbar__right">
-      <NavLink exact className="navbar__link hvr-underline-from-left" activeClassName="selected" name="home" to="/">Home</NavLink>
-      <NavLink exact className="navbar__link hvr-underline-from-left" activeClassName="selected" name="writing" to="/">Writing</NavLink>
-      <NavLink exact className="navbar__link hvr-underline-from-left" activeClassName="selected" name="contact" to="/">Contact</NavLink>
+      <NavLink
+        exact
+        className="navbar__link"
+        activeClassName="selected"
+        name="home"
+        to="/">
+        Home
+      </NavLink>
+      <NavLink
+        exact
+        className="navbar__link"
+        activeClassName="selected"
+        name="writing"
+        to="/writing">
+        Writing
+      </NavLink>
+      <a
+        className="navbar__link"
+        name="contact"
+        href="mailto:duncan.grubbs@gmail.com">
+      Contact
+    </a>
     </div>
   </div>
 );
