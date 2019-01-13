@@ -11,7 +11,7 @@ import propTypes from 'prop-types';
 class ProjectCard extends Component {
   componentDidMount() {
     const self = document.getElementById(this.props._id);
-    self.style.backgroundImage = `url('../images/barterout.png')`;
+    self.classList.add(this.props._id);
   }
 
   render() {

@@ -123,3 +123,11 @@ a:hover {
   color: var(--theme-text-color);
   font-size: .5em;
 }
+
+#scroll-tracker {
+  position: fixed;
+  display: block;
+  margin-top: 64px;
+  height: 3px;
+  background: var(--theme-primary-color);
+}

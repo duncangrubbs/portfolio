@@ -39,37 +39,6 @@
   color: var(--theme-bold-text-color);
 }
 
-/* .hvr-underline-from-left {
-  display: inline-block;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  position: relative;
-  overflow: hidden;
-}
-
-.hvr-underline-from-left:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: var(--theme-secondary-color);
-  height: 2px;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.hvr-underline-from-left:hover:before,
-.hvr-underline-from-left:focus:before,
-.hvr-underline-from-left:active:before {
-  right: 25%;
-} */
-
 /* WritingCard Styles */
 .writingcard {
   display: flex;
@@ -126,6 +95,22 @@
   background-position: center center;
   background-size: cover;
   border-radius: 4px;
+}
+
+.barterout {
+  background-image: url('../images/barterout.png');
+}
+
+.letsgo {
+  background-image: url('../images/lets-go.png');
+}
+
+.squaretab {
+  background-image: url('../images/square-tab.png');
+}
+
+.h4h {
+  background-image: url('../images/h4h-research.png');
 }
 
 .projectcard__title {
