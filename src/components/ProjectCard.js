@@ -10,8 +10,8 @@ import propTypes from 'prop-types';
 
 class ProjectCard extends Component {
   componentDidMount() {
-    const self = document.getElementById(this.props._id);
-    self.classList.add(this.props._id);
+    const wrapper = document.getElementById(this.props._id);
+    wrapper.classList.add(this.props._id);
   }
 
   render() {
