@@ -9,11 +9,6 @@ import React, { Component } from 'react';
 import propTypes from 'prop-types';
 
 class ProjectCard extends Component {
-  componentDidMount() {
-    const wrapper = document.getElementById(this.props._id);
-    wrapper.classList.add(this.props._id);
-  }
-
   render() {
     return (
       <div className="projectcard" id={this.props._id}>

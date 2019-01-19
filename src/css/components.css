@@ -55,20 +55,6 @@
   -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
   -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.writingcard:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10), 0 6px 6px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10), 0 6px 6px rgba(0, 0, 0, 0.2);
-  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10), 0 6px 6px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10), 0 6px 6px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10), 0 6px 6px rgba(0, 0, 0, 0.2);
 }
 
 .writingcard__title {
@@ -97,19 +83,19 @@
   border-radius: 4px;
 }
 
-.barterout {
+#barterout {
   background-image: url('../images/barterout.png');
 }
 
-.letsgo {
+#letsgo {
   background-image: url('../images/lets-go.png');
 }
 
-.squaretab {
+#squaretab {
   background-image: url('../images/square-tab.png');
 }
 
-.h4h {
+#h4h {
   background-image: url('../images/h4h-research.png');
 }
 

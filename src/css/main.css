@@ -8,6 +8,8 @@
 }
 
 /* GENERAL STYLES */
+::selection { background: yellow; }
+
 body {
   margin: 0;
   padding: 0;
@@ -36,6 +38,7 @@ p {
   color: var(--theme-bold-text-color);
   padding: 0;
   margin: 0;
+  line-height: 1.3em;
 }
 
 a {

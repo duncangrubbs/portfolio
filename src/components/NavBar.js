@@ -12,7 +12,7 @@ import propTypes from 'prop-types';
 const NavBar = () => (
   <div className="navbar">
     <div className="navbar__left">
-      <h2>Duncan Grubbs</h2>
+      <NavLink to="/" href="/"><h2>Duncan Grubbs</h2></NavLink>
     </div>
     <div className="navbar__right">
       <NavLink
