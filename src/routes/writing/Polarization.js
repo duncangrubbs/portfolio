@@ -13,9 +13,15 @@ class Polarization extends Component {
   componentDidMount() {
     const scrollTracker = document.getElementById('scroll-tracker');
     document.addEventListener('scroll', (evt) => {
-      const BONUS = evt.target.scrollingElement.scrollHeight * .1;
-      const percent = evt.target.scrollingElement.scrollTop / evt.target.scrollingElement.scrollHeight;
-      const pixCalc = (evt.target.scrollingElement.scrollWidth + BONUS) * percent;
+      const limit = Math.max(
+        document.body.scrollHeight,
+        document.body.offsetHeight, 
+        document.documentElement.clientHeight,
+        document.documentElement.scrollHeight,
+        document.documentElement.offsetHeight
+      );
+      const percent = (evt.target.scrollingElement.scrollTop + document.documentElement.clientHeight) / limit;
+      const pixCalc = (document.documentElement.clientWidth) * percent;
       scrollTracker.style.width = `${pixCalc}px`;
     });
   }
