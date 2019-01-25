@@ -14,4 +14,7 @@
   #scroll-tracker {
     margin-top: 72px;
   }
+  .navbar__link.selected::after {
+    margin-top: 24px;
+  }
 }

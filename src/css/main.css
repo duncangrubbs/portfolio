@@ -1,15 +1,15 @@
 /* THEME */
 :root {
   --theme-primary-color: #2D9CDB;
-  --theme-secondary-color: rgb(161, 98, 98);
+  --theme-secondary-color: #db2d64;
   --theme-bold-text-color: #333;
   --theme-text-color: #555;
   --theme-light-color: #FFF;
 }
 
-/* GENERAL STYLES */
 ::selection { background: yellow; }
 
+/* GENERAL STYLES */
 body {
   margin: 0;
   padding: 0;
@@ -116,7 +116,7 @@ a:hover {
 .writing__title {
   text-indent: 0;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.8em;
   margin: 24px 0;
   font-weight: bold; 
 }

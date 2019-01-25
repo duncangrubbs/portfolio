@@ -33,10 +33,27 @@
   color: var(--theme-text-color);
   cursor: pointer;
   text-decoration: none;
+  transition: all .2s ease;
 }
 
-.navbar__link:hover{
+.navbar__link:hover {
   color: var(--theme-bold-text-color);
+}
+
+.navbar__link.selected {
+  color: var(--theme-bold-text-color);
+  font-weight: 700;
+}
+
+.navbar__link.selected::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+  align-self: center;
+  width: 48px;
+  height: 2px;
+  background: var(--theme-secondary-color);
 }
 
 /* WritingCard Styles */
