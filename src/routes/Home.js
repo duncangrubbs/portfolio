@@ -25,8 +25,7 @@ const Home = () => (
           I am currently an undergraduate student at the University of Rochester pursuing a B.S.
           in Computer Science and a minor in Mathematics. I love web and app
           development and have experience with Java, Javascript, C, and Python.
-          My interests include Machine Learning, Cryptography, Graph Theory and
-          Differential Geometry.
+          My interests include Machine Learning, Web App Development and Graph Theory.
           You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a>,
           <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>,
           <a rel="noopenner external" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>,
