@@ -12,6 +12,7 @@ import NavBar from '../../components/NavBar';
 class Polarization extends Component {
   componentDidMount() {
     const scrollTracker = document.getElementById('scroll-tracker');
+    
     document.addEventListener('scroll', (evt) => {
       const limit = Math.max(
         document.body.scrollHeight,
@@ -20,7 +21,9 @@ class Polarization extends Component {
         document.documentElement.scrollHeight,
         document.documentElement.offsetHeight
       );
-      const percent = evt.target.scrollingElement.scrollTop / limit;
+      const diff = limit - document.documentElement.clientHeight;
+      const diffPercent = diff / limit;
+      const percent = evt.target.scrollingElement.scrollTop / (limit * diffPercent);
       const pixCalc = (document.documentElement.clientWidth) * percent;
       scrollTracker.style.width = `${pixCalc}px`;
     });
