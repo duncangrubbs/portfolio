@@ -27,6 +27,14 @@ const NavBar = () => (
         exact
         className="navbar__link"
         activeClassName="selected"
+        name="portfolio"
+        to="/portfolio">
+        Portfolio
+      </NavLink>
+      <NavLink
+        exact
+        className="navbar__link"
+        activeClassName="selected"
         name="writing"
         to="/writing">
         Writing

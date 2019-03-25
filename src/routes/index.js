@@ -13,10 +13,12 @@ import {
 
 import Home from './Home';
 import Polarization from './writing/Polarization';
+import Portfolio from './Portfolio';
 
 export default (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/writing" component={Polarization} />
+    <Route exact path="/portfolio" component={Portfolio} />
   </Switch>
 );

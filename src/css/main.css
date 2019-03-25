@@ -135,3 +135,38 @@ a:hover {
   height: 3px;
   background: var(--theme-primary-color);
 }
+
+/* Portfolio Styles */
+.portfolio__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 90vw;
+  max-width: 764px;
+  background: none;
+}
+
+.portfolio__card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 20px 8px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  width: 90%;
+  height: 164px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+.portfolio__card--title {
+  color: var(--theme-bold-color);
+  font-size: 1.8em;
+  margin: 4px 0;
+}
+
+.portfolio__card--desc {
+  color: var(--theme-text-color);
+  font-size: 1.15em;
+}
