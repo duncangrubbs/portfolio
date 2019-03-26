@@ -10,6 +10,11 @@
 ::selection { background: yellow; }
 
 /* GENERAL STYLES */
+html {
+  height: 100vh;
+  background: linear-gradient(#FFF, rgb(245, 245, 245));
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -138,35 +143,39 @@ a:hover {
 
 /* Portfolio Styles */
 .portfolio__content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin: 0 auto;
   padding: 100px 0;
   width: 90vw;
-  max-width: 764px;
+  max-width: 800px;
   background: none;
 }
 
 .portfolio__card {
   display: flex;
   flex-direction: column;
+  align-content: center;
   background: white;
-  margin: 20px 8px;
+  cursor: pointer;
+  margin: 18px 12px;
   padding: 8px 16px;
   border-radius: 10px;
-  width: 90%;
-  height: 164px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+  transition: all .17s ease-in-out;
+}
+
+.portfolio__card:hover {
   box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
 }
 
 .portfolio__card--title {
-  color: var(--theme-bold-color);
+  color: var(--theme-bold-text-color);
   font-size: 1.8em;
-  margin: 4px 0;
 }
 
 .portfolio__card--desc {
-  color: var(--theme-text-color);
+  color: var(--theme-test-color);
   font-size: 1.15em;
+  margin: 8px 0;
 }
