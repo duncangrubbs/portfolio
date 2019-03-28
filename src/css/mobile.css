@@ -17,4 +17,8 @@
   .navbar__link.selected::after {
     margin-top: 24px;
   }
+  .portfolio__content {
+    display: flex;
+    flex-direction: column;
+  }
 }
