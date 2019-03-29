@@ -189,3 +189,11 @@ a:hover {
   font-size: 1.15em;
   margin: 8px 0;
 }
+
+.portfoliopage__content--barterout {
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+  width: 95vw;
+  max-width: 700px;
+}

@@ -30,7 +30,7 @@
 .navbar__link {
   margin: 0 10px;
   font-size: 1.1em;
-  width: 60px;
+  min-width: 60px;
   text-align: center;
   color: var(--theme-text-color);
   cursor: pointer;
@@ -52,7 +52,7 @@
   display: block;
   position: absolute;
   margin-top: 20px;
-  width: inherit;
+  width: 60px;
   height: 2px;
   background: var(--theme-secondary-color);
 }

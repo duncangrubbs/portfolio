@@ -14,11 +14,14 @@ import {
 import Home from './Home';
 import Polarization from './writing/Polarization';
 import Portfolio from './Portfolio';
+import BarterOut from './portfolio/BarterOut';
 
 export default (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/writing" component={Polarization} />
+
     <Route exact path="/portfolio" component={Portfolio} />
+    <Route exact path="/portfolio/barterout" component={BarterOut} />
   </Switch>
 );
