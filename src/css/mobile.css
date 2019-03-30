@@ -6,13 +6,9 @@
   .home__content {
     display: flex;
     flex-direction: column;
-    padding: 72px 0 0 0;
   }
   .writing {
     width: 90vw;
-  }
-  #scroll-tracker {
-    margin-top: 72px;
   }
   .navbar__link.selected::after {
     margin-top: 24px;

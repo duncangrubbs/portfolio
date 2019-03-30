@@ -9,20 +9,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import NavBar from '../components/NavBar';
-import WritingCard from '../components/WritingCard';
-import ProjectCard from '../components/ProjectCard';
+import WorkCard from '../components/WorkCard';
 
 import resume from '../res/Duncan Grubbs Resume.pdf';
 
 const Home = () => (
   <div>
+    <div id="portfolio-header"><span>Hi, I'm Duncan</span></div>
     <NavBar page="Home" />
     <div className="home__content">
       <div className="home__grid-item">
         <h1>About Me</h1>
         <p>
-          Hello! My name is Duncan Grubbs and I am from the San Francisco Bay Area.
-          I am currently an undergraduate student at the University of Rochester pursuing a B.S.
+          I'm from the San Francisco Bay Area and I'm currently an undergraduate student
+          at the University of Rochester pursuing a B.S.
           in Computer Science and a minor in Mathematics. I love full-stack development
           and have experience with React, Node, Redux, Polymer, MongoDB, Jest, Mocha, supertest
           and more. I also have extensive course work in Java, C, and Python including
@@ -41,25 +41,10 @@ const Home = () => (
         </a>
       </div>
       <div className="home__grid-item">
-      <h1>Writing</h1>
-      <Link to="/writing"><WritingCard src="something" /></Link>
-      </div>
-      <div className="home__grid-item">
-      <h1>Technical Work</h1>
-      <div className="home__projects">
-        <a href="https://www.barterout.com">
-          <ProjectCard _id="barterout" title="BarterOut"/>
-        </a>
-        <a href="https://github.com/SebastianBoyd/lettuce-go">
-          <ProjectCard _id="letsgo" title="Let's Go"/>
-        </a>
-        <a href="https://github.com/AlexanderOtavka/square-tab">
-          <ProjectCard _id="squaretab" title="Square Tab"/>
-        </a>
-        <a href="https://github.com/DHSDevelopersClub/hack4health">
-          <ProjectCard _id="h4h" title="Hack for Health"/>
-        </a>
-      </div>
+      <h1>Example Work</h1>
+      <Link to="/portfolio"><WorkCard title="BarterOut" /></Link>
+      <Link to="/portfolio"><WorkCard title="Hack4Health" /></Link>
+      <Link to="/portfolio"><WorkCard title="Let's Go API" /></Link>
       </div>
     </div>
   </div>

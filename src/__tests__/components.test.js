@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import ProjectCard from '../components/ProjectCard';
-import WritingCard from '../components/WritingCard';
+import WorkCard from '../components/WorkCard';
 import NavBar from '../components/NavBar';
+import ScrollTracker from '../components/ScrollTracker';
 
 describe('components', () => {
   it('should render', () => {
-    shallow(<ProjectCard _id="Test" title="Test" />);
+    shallow(<WorkCard />);
   });
-  
-  it('should render', () => {
-    shallow(<WritingCard />);
-  });
-  
+
   it('should render', () => {
     shallow(<NavBar />);
+  });
+
+  it('should render', () => {
+    shallow(<ScrollTracker />);
   });
 });

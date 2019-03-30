@@ -11,8 +11,8 @@ import NavBar from '../../components/NavBar';
 
 const BarterOut = () => (
   <div>
+    <div id="portfolio-header"><span>My Portfolio</span></div>
     <NavBar page="Portfolio" />
-    <div id="portfolio-header"><span>Portfolio</span></div>
     <div className="portfoliopage__content--barterout">
       <h1>BarterOut</h1>
       <p className="writing__para">

@@ -12,8 +12,8 @@ import NavBar from '../components/NavBar';
 
 const Portfolio = () => (
   <div>
+    <div id="portfolio-header"><span>My Portfolio</span></div>
     <NavBar page="Portfolio" />
-    <div id="portfolio-header"><span>Portfolio</span></div>
     <div className="portfolio__content">
       <Link to='/portfolio/barterout' className="portfolio__card">
         <h1>BarterOut</h1>

@@ -61,7 +61,6 @@ a:hover {
 .home__content {
   display: grid;
   width: 100vw;
-  padding: 64px 0 0 0;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   grid-row-gap: 24px;
@@ -109,7 +108,6 @@ a:hover {
   width: 60vw;
   max-width: 750px;
   margin: 0 auto;
-  padding: 64px 0;
 }
 
 .writing__para {
@@ -132,20 +130,12 @@ a:hover {
   font-size: .5em;
 }
 
-#scroll-tracker {
-  position: fixed;
-  display: block;
-  margin-top: 64px;
-  height: 3px;
-  background: var(--theme-primary-color);
-}
-
 /* Portfolio Styles */
 .portfolio__content {
   display: grid;
   grid-template-columns: 50% 50%;
   margin: 0 auto;
-  padding: 32px 0;
+  max-width: 864px;
   width: 100vw;
   background: none;
 }
@@ -153,9 +143,9 @@ a:hover {
 #portfolio-header {
   display: flex;
   align-items: center;
-  padding: 64px 16px 0 16px;
+  padding: 0 16px;
   width: 100vw;
-  height: 256px;
+  height: 200px;
   font-size: 3em;
   color: var(--theme-light-color);
   background: rgb(63,94,251);
@@ -170,7 +160,7 @@ a:hover {
   cursor: pointer;
   margin: 18px 18px;
   padding: 8px 16px;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
   transition: all .17s ease-in-out;
 }
