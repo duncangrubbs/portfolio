@@ -7,7 +7,7 @@ import ScrollTracker from '../components/ScrollTracker';
 
 describe('components', () => {
   it('should render', () => {
-    shallow(<WorkCard />);
+    shallow(<WorkCard title="sample" />);
   });
 
   it('should render', () => {

@@ -9,12 +9,14 @@ import React from 'react';
 
 import NavBar from '../../components/NavBar';
 
+import barterout from '../../images/barterout.png';
+
 const BarterOut = () => (
   <div>
-    <div id="portfolio-header"><span>My Portfolio</span></div>
+    <div className="header"><span>My Portfolio</span></div>
     <NavBar page="Portfolio" />
     <div className="portfoliopage__content--barterout">
-      <h1>BarterOut</h1>
+      <h1><a id="barterout__heading" href="https://github.com/BarterOut">BarterOut</a></h1>
       <p className="writing__para">
         BarterOut is a web application that focuses on making peer-to-peer
         used textbook transactions easier. For the last year, I have worked
@@ -28,6 +30,7 @@ const BarterOut = () => (
         we had a much larger team and we were looking to launch the first
         version of the site by the end of the semester.
       </p>
+      <img alt="barterout" src={barterout} className="port-img" />
       <p className="writing__para">
         After a successful launch at the end of the semester, we continued working over
         the summer, implementing some key features we were missing, as well as a new design.

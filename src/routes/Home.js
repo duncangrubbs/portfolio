@@ -15,7 +15,7 @@ import resume from '../res/Duncan Grubbs Resume.pdf';
 
 const Home = () => (
   <div>
-    <div id="portfolio-header"><span>Hi, I'm Duncan</span></div>
+    <div className="header"><span>Hi, I'm Duncan</span></div>
     <NavBar page="Home" />
     <div className="home__content">
       <div className="home__grid-item">

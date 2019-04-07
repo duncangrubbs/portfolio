@@ -12,7 +12,7 @@ import NavBar from '../components/NavBar';
 
 const Portfolio = () => (
   <div>
-    <div id="portfolio-header"><span>My Portfolio</span></div>
+    <div className="header"><span>My Portfolio</span></div>
     <NavBar page="Portfolio" />
     <div className="portfolio__content">
       <Link to='/portfolio/barterout' className="portfolio__card">
@@ -24,7 +24,11 @@ const Portfolio = () => (
           API (backend) infrastructure.
         </div>
       </Link>
-      <div className="portfolio__card">
+      
+      <a 
+        href="https://github.com/duncangrubbs/lets-go-api"
+        className="portfolio__card"
+      >
         <h1>Let&apos;s Go API</h1>
         <div className="portfolio__card--desc">
           Recently, I returned to a project I had started a few years
@@ -33,8 +37,11 @@ const Portfolio = () => (
           the app in the first place. I wanted to work in a test driven
           way, focusing on making my code clean and testable.
         </div>
-      </div>
-      <div className="portfolio__card long">
+      </a>
+      <a 
+        href="https://github.com/duncangrubbs/react-io"
+        className="portfolio__card long"
+      >
         <h1>react-io</h1>
         <div className="portfolio__card--desc">
           My personal website, re-written in React, and currently under
@@ -43,8 +50,36 @@ const Portfolio = () => (
           Prior to this, I had an entirely static website that used
           AMP pages to provide the absolute fastest experience.
         </div>
-      </div>
+      </a>
       <div className="portfolio__card">
+        <h1>Change</h1>
+        <div className="portfolio__card--desc long">
+          During my freshmen year at University of Rochester,
+          I worked on a student startup called Change. I joined
+          a small dev team of mostly backend developers who were
+          looking for someone to build the frontend of their web
+          app. I used React to build a multi-page web app that
+          interfaced with their API.
+        </div>
+      </div>
+      <a 
+        href="https://github.com/URSkedge/skedge_v2"
+        className="portfolio__card"
+      >
+        <h1>UR Skedge</h1>
+        <div className="portfolio__card--desc long">
+          During DandyHacks (the hack-a-thon at University of Rochester)
+          2018, my partner and I worked on reviving
+          an old project from the University of Rochester called Skedge.
+          We rebuilt the frontend in React, and updated the Ruby backend.
+          We used Redux to handle state and Bootstrap for styling on
+          the frontend.
+        </div>
+      </a>
+      <a 
+        href="https://github.com/DHSDevelopersClub/hack4health"
+        className="portfolio__card"
+      >
         <h1>Hack4Health</h1>
         <div className="portfolio__card--desc long">
           During the 2017 Marin County Hack for Health hack-a-thon,
@@ -55,7 +90,7 @@ const Portfolio = () => (
           We parsed the data with Python, and used the D3 Javascript
           library to visualize the data.
         </div>
-      </div>
+      </a>
     </div>
   </div>
 );

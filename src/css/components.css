@@ -81,15 +81,3 @@
   height: 3px;
   background: var(--theme-secondary-color);
 }
-
-/* #scroll-tracker::after {
-  content: '';
-  display: block;
-  width: 3px;
-  height: 5px;
-  background: var(--theme-secondary-color);
-  margin-left: 10px;
-  opacity: .3;
-  float: right;
-  z-index: inherit;
-} */
