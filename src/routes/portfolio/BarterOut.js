@@ -35,7 +35,7 @@ const BarterOut = () => (
         After a successful launch at the end of the semester, we continued working over
         the summer, implementing some key features we were missing, as well as a new design.
         We had a goal date of August 1st, 2018 to launch the next version, which was much
-        more featured a smooth. Within the first week of the fall semester, we had
+        more featured and smooth. Within the first week of the fall semester, we had
         grown our user base to 70+ and had completed 8+ transactions. While these
         numbers were small, it was incredible seeing what was just an idea no more
         than a year before turn into a working proof of concept that people were
@@ -49,6 +49,29 @@ const BarterOut = () => (
         and had written tens of thousands of lines of code to build features like
         email verification, secure authentication, password reset, and a custom admin
         dashboard. We were spending too much time on the wrong things.
+      </p>
+      <p className="writing__para">
+        We started thinking out testing strategies and plans to refactor.
+        We landed on <code>Jest</code> and <code>supertest</code> for our
+        testing libraries, and then we thought about UI.
+        We new we had some key problems:
+      </p>
+      <ol className="writing__para">
+        <li>We had thousands of lines of custom CSS</li>
+        <li>The site didn't perform well on mobile</li>
+        <li>Most of our CSS was unstructured and unreadable</li>
+      </ol>
+      <p className="writing__para">
+        To solve these problems, we decided on a combination of
+        Bootstrap 4 and BEM CSS. We knew we needed some kind of
+        library, at least temporarily. If you have ever written CSS, you know
+        how frustrating and complicated it can be, and we wanted the experts to
+        handle it. However, for the CSS we did write, we wanted it to be clear,
+        structered, and readable. So, by the end of semester, we had accomplished
+        a lot of this. The main application was re-written in Bootstrap, and
+        we began refactoring our custom CSS for the landing pages with BEM.
+        Unit testing is underway, but that will be a much longer process
+        since we are building the tests around the API, and not vice versa.
       </p>
     </div>
   </div>
