@@ -9,7 +9,7 @@ import React from 'react';
 
 import NavBar from '../../components/NavBar';
 
-import barterout from '../../images/barterout.png';
+import barterout from '../../res/images/barterout.png';
 
 const BarterOut = () => (
   <div>
@@ -58,7 +58,7 @@ const BarterOut = () => (
       </p>
       <ol className="writing__para">
         <li>We had thousands of lines of custom CSS</li>
-        <li>The site didn't perform well on mobile</li>
+        <li>The site didn&apos;t perform well on mobile</li>
         <li>Most of our CSS was unstructured and unreadable</li>
       </ol>
       <p className="writing__para">

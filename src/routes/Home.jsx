@@ -15,13 +15,13 @@ import resume from '../res/Duncan Grubbs Resume.pdf';
 
 const Home = () => (
   <div>
-    <div className="header"><span>Hi, I'm Duncan</span></div>
+    <div className="header"><span>Hi, I&apos;m Duncan</span></div>
     <NavBar page="Home" />
     <div className="home__content">
       <div className="home__grid-item">
         <h1>About Me</h1>
         <p>
-          I'm from the San Francisco Bay Area and I'm currently an undergraduate student
+          I&apos;m from the San Francisco Bay Area and I&apos;m currently an undergraduate student
           at the University of Rochester pursuing a B.S.
           in Computer Science and a minor in Mathematics. I love full-stack development
           and have experience with React, Node, Redux, Polymer, MongoDB, Jest, Mocha, supertest
