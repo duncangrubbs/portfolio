@@ -79,5 +79,5 @@
   z-index: 10;
   top: 0;
   height: 3px;
-  background: var(--theme-secondary-color);
+  background: var(--theme-gradient-color);
 }

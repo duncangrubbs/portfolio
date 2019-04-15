@@ -1,6 +1,7 @@
 /**
  * @file ScrollTracker.js
- * @description ScrollTracker component for the site.
+ * @description Shows the scroll depth percentage as a bar on
+ * top of the screen.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
  * @version 0.1.0
  */
@@ -9,7 +10,7 @@ import React, { Component } from 'react';
 
 class ScrollTracker extends Component {
   componentDidMount() {
-    const scrollTracker = document.getElementById('scroll-tracker');
+    const self = document.getElementById('scroll-tracker');
     
     document.addEventListener('scroll', (evt) => {
       const limit = Math.max(
@@ -19,11 +20,14 @@ class ScrollTracker extends Component {
         document.documentElement.scrollHeight,
         document.documentElement.offsetHeight
       );
+      // Do some math
       const diff = limit - document.documentElement.clientHeight;
       const diffPercent = diff / limit;
       const percent = evt.target.scrollingElement.scrollTop / (limit * diffPercent);
       const pixCalc = (document.documentElement.clientWidth) * percent;
-      scrollTracker.style.width = `${pixCalc}px`;
+
+      // Update the width
+      self.style.width = `${pixCalc}px`;
     });
   }
 
