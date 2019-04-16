@@ -2,8 +2,6 @@
 /* NavBar Styles */
 .navbar {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background: var(--theme-light-color);
   color: var(--theme-bold-text-color);
   height: 64px;
@@ -11,10 +9,27 @@
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .08);
 }
 
+.navbar__content--right, .navbar__content--left {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.navbar__content--left {
+  justify-content: flex-start;
+  padding: 0px 16px;
+}
+
+.navbar__content--right {
+  justify-content: flex-end;
+}
+
 .navbar__link {
+  display: flex;
+  justify-content: center;
   margin: 0 10px;
   font-size: 1.1em;
-  min-width: 60px;
+  min-width: 70px;
   text-align: center;
   color: var(--theme-text-color);
   cursor: pointer;
@@ -35,13 +50,13 @@
   content: '';
   display: block;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 60px;
   height: 2px;
   background: var(--theme-secondary-color);
 }
 
-/* WritingCard Styles */
+/* WorkCard Styles */
 .workcard {
   display: flex;
   flex-direction: column;

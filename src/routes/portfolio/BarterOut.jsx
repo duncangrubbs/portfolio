@@ -13,7 +13,7 @@ import barterout from '../../res/images/barterout.png';
 
 const BarterOut = () => (
   <div>
-    <div className="header"><span>My Portfolio</span></div>
+    <div className="header"></div>
     <NavBar page="Portfolio" />
     <div className="portfoliopage__content--barterout">
       <h1><a id="barterout__heading" href="https://github.com/BarterOut">BarterOut</a></h1>

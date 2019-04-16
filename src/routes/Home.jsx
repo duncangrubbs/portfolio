@@ -15,7 +15,7 @@ import resume from '../res/Duncan Grubbs Resume.pdf';
 
 const Home = () => (
   <div>
-    <div className="header"><span>Hi, I&apos;m Duncan</span></div>
+    <div className="header"></div>
     <NavBar page="Home" />
     <div className="home__content">
       <div className="home__grid-item">
@@ -24,9 +24,9 @@ const Home = () => (
           I&apos;m from the San Francisco Bay Area and I&apos;m currently an undergraduate student
           at the University of Rochester pursuing a B.S.
           in Computer Science and a minor in Mathematics. I love full-stack development
-          and have experience with React, Node, Redux, Polymer, MongoDB, Jest, Mocha, supertest
+          and have experience with React, Node, Redux, MongoDB, Jest, Mocha
           and more. I also have extensive course work in Java, C, and Python including
-          grammar parsing, bayesian inference, NFA->DFA convertions, and constraint satisfaction.
+          grammar parsing, bayesian inference, automata, constraint satisfaction, and machine learning.
           You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a>,
           <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>,
           <a rel="noopenner external" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>,
@@ -42,9 +42,10 @@ const Home = () => (
       </div>
       <div className="home__grid-item">
       <h1>Example Work</h1>
-      <Link to="/portfolio"><WorkCard title="BarterOut" /></Link>
+      <Link to="/portfolio/barterout"><WorkCard title="BarterOut" /></Link>
       <Link to="/portfolio"><WorkCard title="Hack4Health" /></Link>
       <Link to="/portfolio"><WorkCard title="Let's Go API" /></Link>
+      <Link to="/portfolio">See more</Link>
       </div>
     </div>
   </div>

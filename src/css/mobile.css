@@ -10,8 +10,15 @@
   .writing {
     width: 90vw;
   }
+  .navbar__content--left {
+    display: none;
+  }
+  .navbar__content--right {
+    width: 100%;
+    justify-content: center;
+  }
   .navbar__link.selected::after {
-    margin-top: 24px;
+    margin-top: 44px;
   }
   .portfolio__content {
     display: flex;

@@ -14,7 +14,7 @@ class Polarization extends Component {
   render() {
     return (
       <div>
-        <div className="header"><span>Writing</span></div>
+        <div className="header"></div>
         <NavBar />
         <ScrollTracker />
         <div className="writing">

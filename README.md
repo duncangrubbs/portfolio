@@ -1,6 +1,12 @@
 # react-io
 
-## duncangrubbs.github.io but re-built with React.js
+> My personal website, but re-built with React.js
+
+### Overview
+Yes, React.js is overkill for a static, personal website.
+However, I am using this site as a demostration of my
+knowledge in web development fundementals and best
+practices, expressed in the use of the following tools.
 
 ### Tools Used:
 - Built With [React](https://reactjs.org/)
