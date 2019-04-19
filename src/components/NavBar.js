@@ -11,7 +11,9 @@ import propTypes from 'prop-types';
 
 const NavBar = () => (
   <div className="navbar">
-    <div className="navbar__content--left"><h2>Duncan Grubbs</h2></div>
+    <NavLink to="/" className="navbar__content--left">
+      <h2>Duncan Grubbs</h2>
+    </NavLink>
     <div className="navbar__content--right">
       <NavLink
         exact

@@ -43,7 +43,7 @@
 
 .navbar__link.selected {
   color: var(--theme-bold-text-color);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .navbar__link.selected::after {

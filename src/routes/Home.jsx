@@ -19,9 +19,9 @@ const Home = () => (
     <NavBar page="Home" />
     <div className="home__content">
       <div className="home__grid-item">
-        <h1>About Me</h1>
+        <h1>Hi, I&apos;m Duncan</h1>
         <p>
-          I&apos;m from the San Francisco Bay Area and I&apos;m currently an undergraduate student
+          I am currently an undergraduate student
           at the University of Rochester pursuing a B.S.
           in Computer Science and a minor in Mathematics. I love full-stack development
           and have experience with React, Node, Redux, MongoDB, Jest, Mocha
