@@ -73,6 +73,19 @@ const BarterOut = () => (
         Unit testing is underway, but that will be a much longer process
         since we are building the tests around the API, and not vice versa.
       </p>
+      <p className="writing__para">
+        Spring semester was slow. We were all so busy with school that we weren't
+        able to work on BarterOut all that much. We cut down our costs by reducing
+        the number of backups we were doing on mLab and removing one of our GSuite
+        emails. We also lost our CEO, and made some major team cutbacks. All of
+        this was a lot of change but it prepared us for the summmer where we are now
+        working hard on changing the direction of the platform.
+      </p>
+      <p className="writing__para">
+        These goals mainly revolve around moving BarterOut to an organization that
+        is uses open source to build products that help college students. We are
+        working on adding a scheduler, social networking aspects, and much more.
+      </p>
     </div>
   </div>
 );
