@@ -7,6 +7,7 @@ import App from '../App';
 import Home from '../routes/Home';
 import Portfolio from '../routes/Portfolio';
 import BarterOut from '../routes/portfolio/BarterOut';
+import Hack4Health from '../routes/portfolio/Hack4Health';
 import Polarization from '../routes/writing/Polarization';
 
 describe('route components render', () => {
@@ -46,6 +47,15 @@ describe('route components render', () => {
     ReactDOM.render(
       <MemoryRouter>
         <BarterOut />
+      </MemoryRouter>, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+
+  it('Hack4Health renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(
+      <MemoryRouter>
+        <Hack4Health />
       </MemoryRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
   });
