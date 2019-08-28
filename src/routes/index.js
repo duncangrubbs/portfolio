@@ -15,6 +15,7 @@ import Home from './Home';
 import Polarization from './writing/Polarization';
 import Portfolio from './Portfolio';
 import BarterOut from './portfolio/BarterOut';
+import Hack4Health from './portfolio/Hack4Health';
 
 export default (
   <Switch>
@@ -23,5 +24,6 @@ export default (
 
     <Route exact path="/portfolio" component={Portfolio} />
     <Route exact path="/portfolio/barterout" component={BarterOut} />
+    <Route exact path="/portfolio/hack4health" component={Hack4Health} />
   </Switch>
 );

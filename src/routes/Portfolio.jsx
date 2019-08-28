@@ -77,7 +77,7 @@ const Portfolio = () => (
         </div>
       </a>
       <a 
-        href="https://github.com/DHSDevelopersClub/hack4health"
+        href="/portfolio/hack4health"
         className="portfolio__card"
       >
         <h1>Hack4Health</h1>
