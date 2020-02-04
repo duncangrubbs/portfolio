@@ -26,18 +26,18 @@ const Home = () => (
           in Computer Science and a minor in Mathematics. I love full-stack development
           and have experience with React, Node, Redux, MongoDB, Jest, Mocha
           and more. I also have extensive course work in Java, C, and Python including
-          grammar parsing, bayesian inference, automata, constraint satisfaction, and machine learning.
+          grammar parsing and L-Systems, bayesian inference, constraint satisfaction and minimax,
+          and neural networks and deep learning.
           You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a>,
           <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>,
-          <a rel="noopenner external" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>,
-          and <a rel="noopenner external" href="https://www.instagram.com/slamdunkkkkk/"> Instagram</a>.
+          and <a rel="noopenner external" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>.
         </p>
         <a href={resume} download target="_self" className="home__resume">
           <svg fill="#FFFFFF" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
             <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
             <path d="M0 0h24v24H0z" fill="none"/>
           </svg>
-          Resumé
+          Résumé
         </a>
       </div>
       <div className="home__grid-item">
