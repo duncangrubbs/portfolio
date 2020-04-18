@@ -15,7 +15,7 @@ const Portfolio = () => (
     <div className="header"></div>
     <NavBar page="Portfolio" />
     <div className="portfolio__content">
-      <Link to='/portfolio/barterout' className="portfolio__card">
+    <Link to='/portfolio/barterout' className="portfolio__card">
         <h1>BarterOut</h1>
         <div className="portfolio__card--desc">
           BarterOut is a web application that focuses on making peer-to-peer
@@ -25,11 +25,8 @@ const Portfolio = () => (
         </div>
       </Link>
       
-      <a 
-        href="https://github.com/duncangrubbs/lets-go-api"
-        className="portfolio__card"
-      >
-        <h1>Let&apos;s Go API</h1>
+      <Link to='/portfolio/letsgo' className="portfolio__card">
+        <h1>Let&apos;s Go</h1>
         <div className="portfolio__card--desc">
           Recently, I returned to a project I had started a few years
           ago with the hope of rebuilding the API in a more robust,
@@ -37,7 +34,7 @@ const Portfolio = () => (
           the app in the first place. I wanted to work in a test driven
           way, focusing on making my code clean and testable.
         </div>
-      </a>
+      </Link>
       <a 
         href="https://github.com/duncangrubbs/react-io"
         className="portfolio__card long"

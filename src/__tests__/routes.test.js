@@ -7,6 +7,7 @@ import App from '../App';
 import Home from '../routes/Home';
 import Portfolio from '../routes/Portfolio';
 import BarterOut from '../routes/portfolio/BarterOut';
+import LetsGo from '../routes/portfolio/LetsGo';
 import Hack4Health from '../routes/portfolio/Hack4Health';
 import Polarization from '../routes/writing/Polarization';
 
@@ -47,6 +48,15 @@ describe('route components render', () => {
     ReactDOM.render(
       <MemoryRouter>
         <BarterOut />
+      </MemoryRouter>, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+
+  it('LetsGo renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(
+      <MemoryRouter>
+        <LetsGo />
       </MemoryRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
   });

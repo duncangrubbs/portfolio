@@ -1,6 +1,6 @@
 /**
- * @file BarterOut.js
- * @description React route for BarterOut.
+ * @file Hack4Health.js
+ * @description React route for Hack4Health.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
  * @version 0.1.0
  */

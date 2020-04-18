@@ -208,6 +208,12 @@ a:hover {
   height: auto;
 }
 
+.letsgo-img {
+  width: 50%;
+  margin: 8px auto;
+  border-radius: 6px;
+}
+
 #barterout__heading {
   color: var(--theme-bold-text-color);
 }
