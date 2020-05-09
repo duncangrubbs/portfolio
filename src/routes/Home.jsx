@@ -23,11 +23,15 @@ const Home = () => (
         <p>
           I am currently an undergraduate student
           at the University of Rochester pursuing a B.S.
-          in Computer Science and a minor in Mathematics. I love full-stack development
-          and have experience with React, Node, Redux, MongoDB, Jest, Mocha
-          and more. I also have extensive course work in Java, C, and Python including
-          grammar parsing and L-Systems, bayesian inference, constraint satisfaction and minimax,
-          and neural networks and deep learning.
+          in Computer Science and a minor in Mathematics. 
+          I love working on side projects and have experience at
+          all levels of an applications stack. From complex frontends
+          with React.js, to connecting APIs to databases, to managing
+          CI/CD with Travis, Github, and Heroku.
+          I have the most experience with Javascript,
+          but I also have extensive course work in Java, C, and Python.
+          I have taken courses on subjects including but not limited to:
+          PCG, AI/Machine Learning/Big Data, Analysis of Algorithms.
           You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a>,
           <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>,
           and <a rel="noopenner external" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>.
@@ -42,9 +46,46 @@ const Home = () => (
       </div>
       <div className="home__grid-item">
       <h1>Example Work</h1>
-      <Link to="/portfolio/barterout"><WorkCard title="BarterOut" /></Link>
-      <Link to="/portfolio"><WorkCard title="Hack4Health" /></Link>
-      <Link to="/portfolio"><WorkCard title="Let's Go API" /></Link>
+      <Link to="/portfolio/barterout">
+        <WorkCard
+        title="BarterOut"
+        text="BarterOut is a web application that focuses on making peer-to-peer
+        used textbook transactions easier. For the last year, I have worked
+        in a small team building the client-side of the site, as well as the
+        API (backend) infrastructure. "/>
+      </Link>
+      <Link to="/portfolio/letsgo">
+        <WorkCard
+        title="Let's Go"
+        text=" Recently, I returned to a project I had started a few years
+          ago with the hope of rebuilding the API in a more robust,
+          clean way, while still retaining the ideas I had about
+          the app in the first place. I wanted to work in a test driven
+          way, focusing on making my code clean and testable."/>
+      </Link>
+      <Link to="/portfolio">
+        <WorkCard
+        title="Understanding Political Twitter"
+        text="For my final project in the 'Computational Analysis
+        of Big Data' course at DIS Copenhagen, my peer and
+        I wrote an article analyzing political Twitter accounts
+        using sentiment and other data analysis tools in
+        Python using Jupyter Notebooks. We were featured on
+        Medium's 'Towards Data Science' publication."
+        />
+      </Link>
+      <Link to="/portfolio">
+        <WorkCard
+        title="Artist from Lyrics"
+        text="For my final project in the 'Artificial Neural
+        Networks and Deep Learning' class at DIS Copenhagen,
+        my group and I used a neural network to predict
+        that artist that wrote a song purely from the songs
+        lyrics. We used an LSTM and got our data using the
+        Genius lyrics API. We were published in Medium's
+        'Towards Data Science' publication."
+        />
+      </Link>
       <Link to="/portfolio">See more</Link>
       </div>
     </div>

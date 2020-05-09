@@ -12,7 +12,7 @@ import NavBar from '../../components/NavBar';
 import letsgo from '../../res/images/letsgo.jpg';
 import letsgopromo from '../../res/images/letsgopromo.png';
 
-const Hack4Health = () => (
+const LetsGo = () => (
   <div>
     <div className="header"></div>
     <NavBar page="Portfolio" />
@@ -79,4 +79,4 @@ const Hack4Health = () => (
   </div>
 );
 
-export default Hack4Health;
+export default LetsGo;

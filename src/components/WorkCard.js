@@ -14,10 +14,7 @@ class WorkCard extends Component {
       <div className="workcard">
         <div className="workcard__title">{this.props.title}</div>
         <div className="workcard__content">
-          BarterOut is a web application that focuses on making peer-to-peer
-          used textbook transactions easier. For the last year, I have worked
-          in a small team building the client-side of the site, as well as the
-          API (backend) infrastructure.
+          {this.props.text}
         </div>
       </div>
     );
@@ -25,7 +22,9 @@ class WorkCard extends Component {
 }
 
 WorkCard.propTypes = {
-  title: propTypes.string.isRequired,
+  text: propTypes.string.isRequired,
+  title: propTypes.string.isRequired
+  
 };
 
 export default WorkCard;

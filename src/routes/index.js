@@ -12,7 +12,6 @@ import {
 } from 'react-router-dom';
 
 import Home from './Home';
-import Polarization from './writing/Polarization';
 import Portfolio from './Portfolio';
 import BarterOut from './portfolio/BarterOut';
 import LetsGo from './portfolio/LetsGo';
@@ -21,7 +20,6 @@ import Hack4Health from './portfolio/Hack4Health';
 export default (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/writing" component={Polarization} />
 
     <Route exact path="/portfolio" component={Portfolio} />
     <Route exact path="/portfolio/barterout" component={BarterOut} />
