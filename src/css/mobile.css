@@ -6,6 +6,7 @@
   .home__content {
     display: flex;
     flex-direction: column;
+    width: 95%;
   }
   .writing {
     width: 90vw;

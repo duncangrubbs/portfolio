@@ -11,8 +11,6 @@ import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import WorkCard from '../components/WorkCard';
 
-import resume from '../res/Duncan Grubbs Resume.pdf';
-
 const Home = () => (
   <div>
     <div className="header"></div>
@@ -25,7 +23,7 @@ const Home = () => (
           at the University of Rochester pursuing a B.S.
           in Computer Science and a minor in Mathematics. 
           I love working on side projects and have experience at
-          all levels of an applications stack. From complex frontends
+          all levels of the application stack. From complex frontends
           with React.js, to connecting APIs to databases, to managing
           CI/CD with Travis, Github, and Heroku.
           I have the most experience with Javascript,
@@ -36,13 +34,6 @@ const Home = () => (
           <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>,
           and <a rel="noopenner external" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>.
         </p>
-        <a href={resume} download target="_self" className="home__resume">
-          <svg fill="#FFFFFF" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-            <path d="M0 0h24v24H0z" fill="none"/>
-          </svg>
-          Résumé
-        </a>
       </div>
       <div className="home__grid-item">
       <h1>Example Work</h1>
