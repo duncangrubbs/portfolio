@@ -17,22 +17,25 @@ const Home = () => (
     <NavBar page="Home" />
     <div className="home__content">
       <div className="home__grid-item">
-        <h1>Hi, I&apos;m Duncan</h1>
+        <h1>Hey, I&apos;m Duncan</h1>
         <p>
-          I am currently an undergraduate student
-          at the University of Rochester pursuing a B.S.
-          in Computer Science and a minor in Mathematics. 
+          I am a senior
+          at the <a rel="noopenner external" href="https://rochester.edu">University of Rochester</a>
+          &nbsp;pursuing a B.S. in Computer Science and a minor in Mathematics. 
           I love working on side projects and have experience at
           all levels of the application stack. From complex frontends
           with React.js, to connecting APIs to databases, to managing
-          CI/CD with Travis, Github, and Heroku.
-          I have the most experience with Javascript,
-          but I also have extensive course work in Java, C, and Python.
+          CI/CD with Travis and Heroku, to building, training, and testing
+          ML models for audio, video, and text.
+          I have the most experience with <a rel="noopenner external" href="https://github.com/BarterOut/BarterOutMain">
+          Javascript</a> and <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>
+          &nbsp;but I also have extensive course work in&nbsp;
+          <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>
+          &nbsp;and&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs/urSQL">C</a>.
           I have taken courses on subjects including but not limited to:
-          PCG, AI/Machine Learning/Big Data, Analysis of Algorithms.
-          You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a>,
-          <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>,
-          and <a rel="noopenner external" href="https://www.facebook.com/duncan.grubbs.7"> Facebook</a>.
+          AI/ML/Big Data, linear algebra, algorithms, and computer organization.
+          You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a> and
+          <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>.
         </p>
       </div>
       <div className="home__grid-item">
@@ -43,16 +46,18 @@ const Home = () => (
         text="BarterOut is a web application that focuses on making peer-to-peer
         used textbook transactions easier. For the last year, I have worked
         in a small team building the client-side of the site, as well as the
-        API (backend) infrastructure. "/>
+        API (backend) infrastructure. "
+        />
       </Link>
       <Link to="/portfolio/letsgo">
         <WorkCard
         title="Let's Go"
         text=" Recently, I returned to a project I had started a few years
-          ago with the hope of rebuilding the API in a more robust,
-          clean way, while still retaining the ideas I had about
-          the app in the first place. I wanted to work in a test driven
-          way, focusing on making my code clean and testable."/>
+        ago with the hope of rebuilding the API in a more robust,
+        clean way, while still retaining the ideas I had about
+        the app in the first place. I wanted to work in a test driven
+        way, focusing on making my code clean and testable."
+        />
       </Link>
       <Link to="/portfolio">
         <WorkCard
