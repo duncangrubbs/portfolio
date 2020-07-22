@@ -19,7 +19,7 @@ const Home = () => (
       <div className="home__grid-item">
         <h1>Hey, I&apos;m Duncan</h1>
         <p>
-          I am a senior
+          I&apos;m a senior
           at the <a rel="noopenner external" href="https://rochester.edu">University of Rochester</a>
           &nbsp;pursuing a B.S. in Computer Science and a minor in Mathematics. 
           I love working on side projects and have experience at
