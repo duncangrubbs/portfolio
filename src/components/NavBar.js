@@ -11,26 +11,28 @@ import propTypes from 'prop-types';
 
 const NavBar = () => (
   <div className="navbar">
-    <NavLink to="/" className="navbar__content--left">
-      <h2>Duncan Grubbs</h2>
-    </NavLink>
-    <div className="navbar__content--right">
-      <NavLink
-        exact
-        className="navbar__link"
-        activeClassName="selected"
-        name="home"
-        to="/">
-        Home
+    <div className="navbar__content">
+      <NavLink to="/" className="navbar__content--left">
+        <h2>Duncan Grubbs</h2>
       </NavLink>
-      <NavLink
-        exact
-        className="navbar__link"
-        activeClassName="selected"
-        name="portfolio"
-        to="/portfolio">
-        Portfolio
-      </NavLink>
+      <div className="navbar__content--right">
+        <NavLink
+          exact
+          className="navbar__link"
+          activeClassName="selected"
+          name="home"
+          to="/">
+          Home
+        </NavLink>
+        <NavLink
+          exact
+          className="navbar__link"
+          activeClassName="selected"
+          name="portfolio"
+          to="/portfolio">
+          Portfolio
+        </NavLink>
+      </div>
     </div>
   </div>
 );

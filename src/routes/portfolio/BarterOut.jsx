@@ -8,14 +8,16 @@
 import React from 'react';
 
 import NavBar from '../../components/NavBar';
+import ScrollTracker from '../../components/ScrollTracker';
 
 import barterout from '../../res/images/barterout.png';
 
 const BarterOut = () => (
   <div>
     <div className="header"></div>
+    <ScrollTracker />
     <NavBar page="Portfolio" />
-    <div className="portfoliopage__content--barterout">
+    <div className="portfoliopage__content--article">
       <h1><a id="barterout__heading" href="https://github.com/BarterOut">BarterOut</a></h1>
       <p className="writing__para">
         BarterOut is a web application that focuses on making peer-to-peer
