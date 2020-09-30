@@ -21,13 +21,13 @@ const BarterOut = () => (
       <h1><a id="barterout__heading" href="https://github.com/BarterOut">BarterOut</a></h1>
       <p className="writing__para">
         BarterOut is a web application that focuses on making peer-to-peer
-        used textbook transactions easier. For the last year, I have worked
-        in a small team building the client-side of the site as well as the
-        API (backend) infrastructure.
+        used textbook transactions easier. For over two years, I have worked
+        in a small team building the frontend and the
+        API (backend) infrastructure for the application.
       </p>
       <p className="writing__para">
         BarterOut was founded by Vlad Cazacu and Pavel Stan, and I joined
-        the team in March 2018 providing support one the tech side,
+        the team in March 2018 providing support on the tech side,
         which at the time consisted of only one person. Within a month,
         we had a much larger team and we were looking to launch the first
         version of the site by the end of the semester.
@@ -44,19 +44,32 @@ const BarterOut = () => (
         choosing to use.
       </p>
       <p className="writing__para">
+        While it wasn't my focus, the fall of 2018 was very important on the business
+        side of things too. The business team managed to secure a $3000 grant from the
+        NFS I-Corps program. This money was for customer discovery and the whole team
+        recieved training on how to effectively find your market and understand your
+        future customers.
+      </p>
+      <p className="writing__para">
         During the fall semester, we set some lofty goals for the platform. We felt
         like our code was not maintainable, efficient, tested, or even well written.
         Up until then, we were using the MERN stack: MongoDB, Express.js, React.js,
-        and Node. We had used no frontend CSS or Javascript libraries beyond React
+        and Node.js. We had used no frontend CSS or Javascript libraries beyond React
         and had written tens of thousands of lines of code to build features like
         email verification, secure authentication, password reset, and a custom admin
-        dashboard. We were spending too much time on the wrong things.
+        dashboard. We were spending too much time on the wrong things. As a startup,
+        it was important for us to move fast, but in our pursuit of this we overlooked
+        powerful tools that in the long run would make our lives easier. Everytime we
+        would push changes we would have to go back and sort out a million bugs. Each
+        CSS property we changed would have unpredicatable effects, and bugs were
+        impossible to track down.
       </p>
       <p className="writing__para">
         We started thinking out testing strategies and plans to refactor.
         We landed on <code>Jest</code> and <code>supertest</code> for our
-        testing libraries, and then we thought about UI.
-        We new we had some key problems:
+        testing libraries because we knew Jest was closely tied to React,
+        and supertest gave us powerful tools for REST API testing.
+        Then we thought about UI. We knew we had some key problems:
       </p>
       <ol className="writing__para">
         <li>We had thousands of lines of custom CSS</li>
@@ -72,8 +85,10 @@ const BarterOut = () => (
         structered, and readable. So, by the end of semester, we had accomplished
         a lot of this. The main application was re-written in Bootstrap, and
         we began refactoring our custom CSS for the landing pages with BEM.
-        Unit testing is underway, but that will be a much longer process
+        We have started writing tests, but that will be a much longer process
         since we are building the tests around the API, and not vice versa.
+        If there is one thing I have learned, it would be test your code while
+        you write it, and not after. This will always result in better code.
       </p>
       <p className="writing__para">
         Spring semester was slow. We were all so busy with school that we weren't
@@ -83,12 +98,20 @@ const BarterOut = () => (
         this was a lot of change but it prepared us for the summmer where we are now
         working hard on changing the direction of the platform.
       </p>
+      <h1>New Goals</h1>
       <p className="writing__para">
         These goals mainly revolve around moving BarterOut to an organization that
         is uses open source to build products that help college students. We are
         working on adding a scheduler, social networking aspects, and much more.
+        There is also a new team coming in. After 2+ years, myself and my team
+        member Daniel felt like it was time to step away from the core development
+        of the platform, and work on create a sustainable community around it
+        with developers who understand the codebase, clear documentation, and a
+        written feature set. We open-sourced the codebase, and focused on making
+        it as readable and friendly as possible. It helped to talk to new developers
+        who had never seen the code before and get their feedback on how we could improve.
       </p>
-      <h1>Some Technical Details</h1>
+      <h1>The Technical Details</h1>
       <p className="writing__para">
         We built BarterOut around the boiler plate provided by the MERN stack. On
         the frontend side of things we are using React as our main library. On top
@@ -97,15 +120,24 @@ const BarterOut = () => (
         webpack as our build tool providing image compression and code bundling.
       </p>
       <p className="writing__para">
-        Our backend is build around Express. We are using mongoDB as our database
-        and mongoose as the bridge between our API and database. Our authentication
-        is based around a token system that uses JSON Web Tokens.
+        Our backend is build around Express. We are using MongoDB as our database
+        and mongoose as the bridge between our API and database. The database is hosted
+        on MongoDB atlas because of its ease of use.
+        Our authenticationis based around a token system that uses JSON Web Tokens.
+        We use middleware on our API endpoints that checks the <code>Authorization</code>
+        &nbsp;header, and validates a token if the endpoint requires it. This allows us to
+        easily change permissions levels of an endpoint on the fly. We standardize the
+        connection between our frontend and backend through FetchService middleware
+        that lives on the frontend. Any API request from a React component passes
+        through this service. The middleware passes the right headers, hits the
+        right version of the API, and does automatic error parsing and handling.
       </p>
+      <h1>My Role</h1>
       <p className="writing__para">
         My role in this project has been the tech team leader. Along with
         writing most of the frontend and much of the backend code, I also managed
         our database hosting through mLab, our deployment through Github and Heroku,
-        as well as continuous integration pipelines. Working on this project has taught
+        as well as the continuous integration pipeline. Working on this project has taught
         me so much that I would have never learned in the classroom. Learning how to
         succesfully and efficiently work in a team where everyone is responsible for
         a small part of a large project was huge. Testing, code-review, and clear
@@ -113,7 +145,11 @@ const BarterOut = () => (
       </p>
       <p className="writing__para">
         As a team leader, I also learned about communicating with business and marketing
-        teams, as well as managing server configurations, deployment, and build pipelines.
+        teams and being there throughout the entire product development cycle. As a student
+        run organization we didn't have formal roles, but the experience was similar to
+        working in a product team that had designers, developers, marketers, and managers.
+        Participating the cycle of product development taught me a lot about the importance
+        of iteration, critical thinking, and being willing to just go for something.
         I believe this project in particular prepared me for more real world situations more
         than any class has. 
       </p>

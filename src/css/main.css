@@ -1,7 +1,7 @@
 /* THEME */
 :root {
   --theme-primary-color: #299ce9;
-  --theme-secondary-color: rgba(66,159,224,1);
+  --theme-secondary-color:rgb(53, 53, 53);
   --theme-bold-text-color: #444;
   --theme-text-color: #555;
   --theme-light-color: #FFF;
@@ -56,6 +56,11 @@ p {
   font-weight: 400;
 }
 
+code {
+  color: var(--theme-secondary-color);
+  font-family: 'Courier New', Courier, monospace;
+}
+
 ol {
   font-size: 1.1em;
   color: var(--theme-text-color);
@@ -70,7 +75,8 @@ a {
 }
 
 a:hover {
-  color: var(--theme-secondary-color);
+  background: yellow;
+  color: var(--theme-text-color);
 }
 
 .header {

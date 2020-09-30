@@ -26,7 +26,8 @@ const Home = () => (
           all levels of the application stack. From complex frontends
           with React.js, to connecting APIs to databases, to managing
           CI/CD with Travis and Heroku, to building, training, and testing
-          ML models for audio, video, and text.
+          ML models for audio, video, and text. I am currently working as a software engineer intern
+          at <a rel="noopenner external" href="https://factsquared.com">FactSquared</a>!
           I have the most experience with <a rel="noopenner external" href="https://github.com/BarterOut/BarterOutMain">
           Javascript</a> and <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>
           &nbsp;but I also have extensive course work in&nbsp;
@@ -35,7 +36,7 @@ const Home = () => (
           I have taken courses on subjects including but not limited to:
           AI/ML/Big Data, linear algebra, algorithms, and computer organization.
           You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a> and
-          <a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/"> LinkedIn</a>.
+          &nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
         </p>
       </div>
       <div className="home__grid-item">
@@ -44,9 +45,9 @@ const Home = () => (
         <WorkCard
         title="BarterOut"
         text="BarterOut is a web application that focuses on making peer-to-peer
-        used textbook transactions easier. For the last year, I have worked
-        in a small team building the client-side of the site, as well as the
-        API (backend) infrastructure. "
+        used textbook transactions easier. For over two years, I have worked
+        in a small team building the frontend and the
+        API (backend) infrastructure for the application."
         />
       </Link>
       <Link to="/portfolio/letsgo">

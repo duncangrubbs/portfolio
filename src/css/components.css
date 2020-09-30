@@ -41,6 +41,7 @@
 
 .navbar__link:hover {
   color: var(--theme-bold-text-color);
+  background: none;;
 }
 
 .navbar__link.selected {
