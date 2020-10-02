@@ -22,6 +22,10 @@
   align-items: center;
 }
 
+.navbar__content--left:hover {
+  background: none;
+}
+
 .navbar__content--right {
   justify-content: flex-end;
 }

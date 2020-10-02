@@ -2,7 +2,7 @@
  * @file NavBar.js
  * @description NavBar component for the site.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.0
+ * @version 0.1.3
  */
 
 import React from 'react';
@@ -31,6 +31,14 @@ const NavBar = () => (
           name="portfolio"
           to="/portfolio">
           Portfolio
+        </NavLink>
+        <NavLink
+          exact
+          className="navbar__link"
+          activeClassName="selected"
+          name="blog"
+          to="/blog">
+          Blog
         </NavLink>
       </div>
     </div>

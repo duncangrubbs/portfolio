@@ -2,7 +2,7 @@
  * @file LetsGo.js
  * @description React route for Let's Go.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.0
+ * @version 0.1.3
  */
 
 import React from 'react';

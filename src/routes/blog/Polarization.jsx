@@ -2,7 +2,7 @@
  * @file Polarization.js
  * @description Writing article route for the site.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.0
+ * @version 0.1.3
  */
 
 import React, { Component } from 'react';

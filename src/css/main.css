@@ -59,6 +59,10 @@ p {
 code {
   color: var(--theme-secondary-color);
   font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  background: rgb(240, 240, 240);
+  border-radius: 4px;
+  padding: 2px 4px;
 }
 
 ol {
@@ -158,6 +162,7 @@ a:hover {
 
 .portfolio__card:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.17);
+  background: white;
 }
 
 .portfolio__card--title {
@@ -192,4 +197,12 @@ a:hover {
 
 #barterout__heading {
   color: var(--theme-bold-text-color);
+}
+
+/* Blog Styles */
+.blog__content {
+  display: flex;
+  width: 100vw;
+  max-width: 832px;
+  margin: 0 auto;
 }

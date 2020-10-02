@@ -2,7 +2,7 @@
  * @file Portfolio.js
  * @description React route for portfolio.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.0
+ * @version 0.1.3
  */
 
 import React from 'react';
@@ -15,7 +15,7 @@ const Portfolio = () => (
     <div className="header"></div>
     <NavBar page="Portfolio" />
     <div className="portfolio__content">
-    <Link to='/portfolio/barterout' className="portfolio__card">
+      <Link to='/portfolio/barterout' className="portfolio__card">
         <h1>BarterOut</h1>
         <div className="portfolio__card--desc">
           BarterOut is a web application that focuses on making peer-to-peer

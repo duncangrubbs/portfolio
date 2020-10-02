@@ -2,7 +2,7 @@
  * @file setupTests.js
  * @description Sets up enzyme adapter for tests.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.0
+ * @version 0.1.3
  */
 
 import { configure } from 'enzyme';
