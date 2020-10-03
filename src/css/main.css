@@ -206,3 +206,7 @@ a:hover {
   max-width: 832px;
   margin: 0 auto;
 }
+
+.blog__content a:hover {
+  background: none;
+}
