@@ -6,10 +6,12 @@ import { shallow } from 'enzyme';
 import App from '../App';
 import Home from '../routes/Home';
 import Portfolio from '../routes/Portfolio';
+import Blog from '../routes/Blog';
+import OCT012020 from '../routes/blog/OCT012020';
 import BarterOut from '../routes/portfolio/BarterOut';
 import LetsGo from '../routes/portfolio/LetsGo';
 import Hack4Health from '../routes/portfolio/Hack4Health';
-import Polarization from '../routes/writing/Polarization';
+import Polarization from '../routes/blog/Polarization';
 
 describe('route components render', () => {
   it('App renders without crashing', () => {
@@ -66,6 +68,24 @@ describe('route components render', () => {
     ReactDOM.render(
       <MemoryRouter>
         <Hack4Health />
+      </MemoryRouter>, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+
+  it('Blog renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(
+      <MemoryRouter>
+        <Blog />
+      </MemoryRouter>, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+
+  it('BP1 renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(
+      <MemoryRouter>
+        <OCT012020 />
       </MemoryRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
   });
