@@ -22,19 +22,14 @@ const Home = () => (
           I&apos;m a senior
           at the <a rel="noopenner external" href="https://rochester.edu">University of Rochester</a>
           &nbsp;pursuing a B.S. in Computer Science and a minor in Mathematics. 
-          I love working on side projects and have experience at
-          all levels of the application stack. From complex frontends
-          with React.js, to connecting APIs to databases, to managing
-          CI/CD with Travis and Heroku, to building, training, and testing
-          ML models for audio, video, and text. I am currently working as a software engineer intern
-          at <a rel="noopenner external" href="https://factsquared.com">FactSquared</a>!
-          I have the most experience with <a rel="noopenner external" href="https://github.com/BarterOut/BarterOutMain">
-          Javascript</a> and <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>
-          &nbsp;but I also have extensive course work in&nbsp;
-          <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>
+          I love working on side projects and have experience with&nbsp;
+          <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>,&nbsp;
+          <a rel="noopenner external" href="https://github.com/BarterOut/BarterOutMain">Javascript</a>,&nbsp;
+          Typescript, <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>,
           &nbsp;and&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs/urSQL">C</a>.
-          I have taken courses on subjects including but not limited to:
-          AI/ML/Big Data, linear algebra, algorithms, and computer organization.
+          I am currently working as an intern
+          at <a rel="noopenner external" href="https://fiscalnote.com">FiscalNote</a>!
+          Outside of programming, I enjoy UI design, playing piano, and backpacking.
           You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a> and
           &nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
         </p>
