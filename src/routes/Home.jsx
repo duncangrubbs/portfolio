@@ -30,8 +30,8 @@ const Home = () => (
           I am currently working as an intern
           at <a rel="noopenner external" href="https://fiscalnote.com">FiscalNote</a>!
           Outside of programming, I enjoy UI design, playing piano, and backpacking.
-          You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a> and
-          &nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
+          You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a>
+          &nbsp;and&nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
         </p>
       </div>
       <div className="home__grid-item">
