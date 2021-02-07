@@ -25,17 +25,16 @@ const Home = () => (
           I love working on side projects and have experience with&nbsp;
           <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>,&nbsp;
           <a rel="noopenner external" href="https://github.com/BarterOut/BarterOutMain">Javascript</a>,&nbsp;
-          Typescript, <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>,
-          &nbsp;and&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs/urSQL">C</a>.
+          Typescript, and <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>.
           I am currently working as an intern
-          at <a rel="noopenner external" href="https://fiscalnote.com">FiscalNote</a>!
-          Outside of programming, I enjoy UI design, playing piano, and backpacking.
-          You can find me on <a rel="noopenner external" href="https://github.com/duncangrubbs"> Github</a>
+          at <a rel="noopenner external" href="https://fiscalnote.com">FiscalNote</a> in their R&amp;D/Data Science
+          department. Outside of programming I enjoy UI design, DJing, playing piano, and backpacking.
+          You can find me on&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs">Github</a>
           &nbsp;and&nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
         </p>
       </div>
       <div className="home__grid-item">
-      <h1>Example Work</h1>
+      <h1>Projects</h1>
       <Link to="/portfolio/barterout">
         <WorkCard
         title="BarterOut"
