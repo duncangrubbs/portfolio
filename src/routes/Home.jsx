@@ -19,16 +19,15 @@ const Home = () => (
       <div className="home__grid-item">
         <h1>Hey, I&apos;m Duncan</h1>
         <p>
-          I&apos;m a senior
-          at the <a rel="noopenner external" href="https://rochester.edu">University of Rochester</a>
-          &nbsp;pursuing a B.S. in Computer Science and a minor in Mathematics. 
+          I&apos;m a software developer who specializes in full-stack web development.
+          I previously worked at <a href="https://factba.se/">FactSquared</a> and <a href="https://www.fiscalnote.com">FiscalNote</a> as a software engineer intern
+          focusing on data science. I am currently helping build <a href="https://www.flowlie.com">Flowlie</a>, an early stage
+          startup in the fintech space.
           I love working on side projects and have experience with&nbsp;
           <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>,&nbsp;
           <a rel="noopenner external" href="https://github.com/BarterOut/BarterOutMain">Javascript</a>,&nbsp;
           Typescript, and <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>.
-          I am currently working as an intern
-          at <a rel="noopenner external" href="https://fiscalnote.com">FiscalNote</a> in their R&amp;D/Data Science
-          department. Outside of programming I enjoy UI design, DJing, playing piano, and backpacking.
+          Outside of programming I enjoy UI design, DJing, playing piano, and backpacking.
           You can find me on&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs">Github</a>
           &nbsp;and&nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
         </p>
