@@ -31,6 +31,10 @@ const Home = () => (
           You can find me on&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs">Github</a>
           &nbsp;and&nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
         </p>
+        <br />
+        <p>
+          Feel free to reach  out for freelance web development at duncan.grubbs[at]gmail[dot]com
+        </p>
       </div>
       <div className="home__grid-item">
       <h1>Projects</h1>
