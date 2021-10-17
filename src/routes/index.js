@@ -13,7 +13,6 @@ import {
 
 import Home from './Home';
 
-import Portfolio from './Portfolio';
 import BarterOut from './portfolio/BarterOut';
 import LetsGo from './portfolio/LetsGo';
 import Hack4Health from './portfolio/Hack4Health';
@@ -25,7 +24,6 @@ export default (
   <Switch>
     <Route exact path="/" component={Home} />
 
-    <Route exact path="/portfolio" component={Portfolio} />
     <Route exact path="/portfolio/barterout" component={BarterOut} />
     <Route exact path="/portfolio/letsgo" component={LetsGo} />
     <Route exact path="/portfolio/hack4health" component={Hack4Health} />

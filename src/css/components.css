@@ -2,7 +2,6 @@
 /* NavBar Styles */
 .navbar {
   display: flex;
-  background: var(--theme-light-color);
   color: var(--theme-bold-text-color);
   height: 64px;
   width: 100vw;
@@ -61,38 +60,6 @@
   width: 60px;
   height: 2px;
   background: var(--theme-secondary-color);
-}
-
-/* WorkCard Styles */
-.workcard {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-height: 124px;
-  overflow-y: hidden;
-  margin: 12px 0;
-  border-radius: 4px;
-  padding: 16px;
-  color: var(--theme-text-color);
-  background: var(--theme-light-color);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
-  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
-  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
-}
-
-.workcard__title {
-  font-size: 1.3em;
-  color: var(--theme-bold-text-color);
-  margin: 4px 0;
-}
-
-.workcard__content {
-  font-size: 1.1em;
-  margin: 4px 0;
-  color: transparent;
-  text-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
 /* Scroll Tracker */

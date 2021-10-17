@@ -5,7 +5,6 @@ import { shallow } from 'enzyme';
 
 import App from '../App';
 import Home from '../routes/Home';
-import Portfolio from '../routes/Portfolio';
 import Blog from '../routes/Blog';
 import OCT012020 from '../routes/blog/OCT012020';
 import BarterOut from '../routes/portfolio/BarterOut';
@@ -32,15 +31,6 @@ describe('route components render', () => {
     ReactDOM.render(
       <MemoryRouter>
         <Polarization />
-      </MemoryRouter>, div);
-    ReactDOM.unmountComponentAtNode(div);
-  });
-
-  it('Portfolio renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(
-      <MemoryRouter>
-        <Portfolio />
       </MemoryRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
   });

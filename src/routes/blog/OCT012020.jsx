@@ -57,7 +57,7 @@ const OCT012020 = () => (
         as logging a user in, verifying they are logged in, and updating locally stored auth tokens.
         To follow the principles of dependency injection, I also made a <code>Storage</code> file that abstracts
         away the persistant storage library, whether it is localStorage, Redux, or something else. This way you
-        only have to update the <code>Stroage</code> class if you change how you persistantly store things, instead of a huge
+        only have to update the <code>Storage</code> class if you change how you persistantly store things, instead of a huge
         refactoring job.
         Finally, I added file to store some widely used constants, like the base API url, the
         version of the API you are using, and an API key if applicable.

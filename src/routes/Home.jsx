@@ -9,7 +9,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import NavBar from '../components/NavBar';
-import WorkCard from '../components/WorkCard';
 
 const Home = () => (
   <div>
@@ -17,71 +16,52 @@ const Home = () => (
     <NavBar page="Home" />
     <div className="home__content">
       <div className="home__grid-item">
-        <h1>Hey, I&apos;m Duncan</h1>
-        <p>
-          I&apos;m a software engineer who specializes in API design and full-stack web architecture.
-          I previously worked at <a href="https://factba.se/">FactSquared</a> and <a href="https://www.fiscalnote.com">FiscalNote</a> as a software engineer intern
-          focusing on data science. I am currently helping build <a href="https://www.flowlie.com">Flowlie</a>, an early stage
-          startup creating the next generation of data infrastructure for venture capital.
-          I love working on side projects and have experience with&nbsp;
-          <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>,&nbsp;
-          <a rel="noopenner external" href="https://github.com/duncangrubbs/ozzy">Javascript</a>,&nbsp;
-          <a rel="noopenner external" href="https://github.com/duncangrubbs/dinner-time">Typescript</a>,&nbsp;
-          and <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>.
-          Outside of programming I enjoy UI design, DJing, cooking, and backpacking.
-          You can find me on&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs">Github</a>
-          &nbsp;and&nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
-        </p>
-        <br />
-        <p>
-          Feel free to reach out for freelance web development at duncan.grubbs[at]gmail[dot]com
-        </p>
+        <div className="glass-container">
+          <h1>Hey, I&apos;m Duncan</h1>
+          <p>
+            I&apos;m a software engineer who specializes in API design and full-stack web development.
+            I previously worked at <a href="https://factba.se/">FactSquared</a> and <a href="https://www.fiscalnote.com">FiscalNote</a> as a software engineer intern
+            focusing on data science. I am currently helping build <a href="https://www.flowlie.com">Flowlie</a>, an early stage
+            startup creating the next generation of data infrastructure for venture fundraising.
+            I love working on side projects and have experience with&nbsp;
+            <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>,&nbsp;
+            <a rel="noopenner external" href="https://github.com/duncangrubbs/ozzy">Javascript</a>,&nbsp;
+            <a rel="noopenner external" href="https://github.com/duncangrubbs/dinner-time">Typescript</a>,&nbsp;
+            and <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>.
+            Outside of programming I enjoy UI design, DJing, cooking, and backpacking.
+            You can find me on&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs">Github</a>
+            &nbsp;and&nbsp;<a rel="noopenner external" href="https://www.linkedin.com/in/duncan-grubbs-01979a14a/">LinkedIn</a>.
+          </p>
+          <br />
+          <p>
+            Feel free to reach out for freelance web development at <em>duncan.grubbs[at]gmail[dot]com</em>
+          </p>
+        </div>
       </div>
       <div className="home__grid-item">
-      <h1>Projects</h1>
-      <Link to="/portfolio/barterout">
-        <WorkCard
-        title="BarterOut"
-        text="BarterOut is a web application that focuses on making peer-to-peer
-        used textbook transactions easier. For over two years, I have worked
-        in a small team building the frontend and the
-        API (backend) infrastructure for the application."
-        />
-      </Link>
-      <Link to="/portfolio/letsgo">
-        <WorkCard
-        title="Let's Go"
-        text=" Recently, I returned to a project I had started a few years
-        ago with the hope of rebuilding the API in a more robust,
-        clean way, while still retaining the ideas I had about
-        the app in the first place. I wanted to work in a test driven
-        way, focusing on making my code clean and testable."
-        />
-      </Link>
-      <Link to="/portfolio">
-        <WorkCard
-        title="Understanding Political Twitter"
-        text="For my final project in the 'Computational Analysis
-        of Big Data' course at DIS Copenhagen, my peer and
-        I wrote an article analyzing political Twitter accounts
-        using sentiment and other data analysis tools in
-        Python using Jupyter Notebooks. We were featured on
-        Medium's 'Towards Data Science' publication."
-        />
-      </Link>
-      <Link to="/portfolio">
-        <WorkCard
-        title="Artist from Lyrics"
-        text="For my final project in the 'Artificial Neural
-        Networks and Deep Learning' class at DIS Copenhagen,
-        my group and I used a neural network to predict
-        that artist that wrote a song purely from the songs
-        lyrics. We used an LSTM and got our data using the
-        Genius lyrics API. We were published in Medium's
-        'Towards Data Science' publication."
-        />
-      </Link>
-      <Link to="/portfolio">See more</Link>
+      <h1>Portfolio</h1>
+      <div className="portfolio__content">
+        <Link to='/portfolio/barterout' className="glass-container">
+          <h2>BarterOut</h2>
+          <p>
+            BarterOut is a web application that focuses on making peer-to-peer
+            used textbook transactions easier. For the last year, I have worked
+            in a small team building the client-side of the site, as well as the
+            API (backend) infrastructure.
+          </p>
+        </Link>
+        
+        <Link to='/portfolio/letsgo' className="glass-container">
+          <h2>Let&apos;s Go</h2>
+          <p>
+            Recently, I returned to a project I had started a few years
+            ago with the hope of rebuilding the API in a more robust,
+            clean way, while still retaining the ideas I had about
+            the app in the first place. I wanted to work in a test driven
+            way, focusing on making my code clean and testable.
+          </p>
+        </Link>
+      </div>
       </div>
     </div>
   </div>

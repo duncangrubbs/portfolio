@@ -11,6 +11,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 // CSS
+import './css/background.css';
 import './css/main.css';
 import './css/components.css';
 import './css/mobile.css';
