@@ -103,7 +103,7 @@ a:hover {
   z-index: 1;
   background: inherit;
   overflow: hidden;
-  border: 1px solid rgba(151,151,151,.16);
+  border: 1px solid rgba(165, 164, 164, 0.16);
 }
 
 .glass-container:before {
@@ -116,7 +116,7 @@ a:hover {
   right: 0;
   bottom: 0;
   box-shadow: inset 0 0 2000px rgba(43,43,43,.2);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(3px);
   margin: -20px;
 }
 
