@@ -1,5 +1,5 @@
 /**
- * @file Hack4Health.js
+ * @file Hack4Health.jsx
  * @description React route for Hack4Health.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
  * @version 0.1.3
@@ -7,14 +7,8 @@
 
 import React from 'react';
 
-import NavBar from '../../components/NavBar';
-import ScrollTracker from '../../components/ScrollTracker';
-
 const Hack4Health = () => (
   <div>
-    <div className="header"></div>
-    <ScrollTracker />
-    <NavBar page="Portfolio" />
     <div className="portfoliopage__content--article">
       <h1><a id="barterout__heading" href="https://github.com/DHSDevelopersClub/hack4health">Hack4Health</a></h1>
       <p className="writing__para">

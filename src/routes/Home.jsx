@@ -1,5 +1,5 @@
 /**
- * @file Home.js
+ * @file Home.jsx
  * @description React route for homepage.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
  * @version 0.1.3
@@ -8,12 +8,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import NavBar from '../components/NavBar';
-
 const Home = () => (
   <div>
-    <div className="header"></div>
-    <NavBar page="Home" />
     <div className="home__content">
       <div className="home__grid-item">
         <div className="glass-container">
@@ -25,7 +21,6 @@ const Home = () => (
             startup creating the next generation of data infrastructure for venture fundraising.
             I love working on side projects and have experience with&nbsp;
             <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>,&nbsp;
-            <a rel="noopenner external" href="https://github.com/duncangrubbs/ozzy">Javascript</a>,&nbsp;
             <a rel="noopenner external" href="https://github.com/duncangrubbs/dinner-time">Typescript</a>,&nbsp;
             and <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>.
             Outside of programming I enjoy UI design, DJing, cooking, and backpacking.

@@ -1,5 +1,5 @@
 /**
- * @file BarterOut.js
+ * @file BarterOut.jsx
  * @description React route for BarterOut.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
  * @version 0.1.3
@@ -7,16 +7,10 @@
 
 import React from 'react';
 
-import NavBar from '../../components/NavBar';
-import ScrollTracker from '../../components/ScrollTracker';
-
 import barterout from '../../res/images/barterout.png';
 
 const BarterOut = () => (
   <div>
-    <div className="header"></div>
-    <ScrollTracker />
-    <NavBar page="Portfolio" />
     <div className="portfoliopage__content--article">
       <h1><a id="barterout__heading" href="https://github.com/BarterOut">BarterOut</a></h1>
       <p className="writing__para">

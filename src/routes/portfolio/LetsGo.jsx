@@ -1,5 +1,5 @@
 /**
- * @file LetsGo.js
+ * @file LetsGo.jsx
  * @description React route for Let's Go.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
  * @version 0.1.3
@@ -7,17 +7,11 @@
 
 import React from 'react';
 
-import NavBar from '../../components/NavBar';
-import ScrollTracker from '../../components/ScrollTracker';
-
 import letsgo from '../../res/images/letsgo.jpg';
 import letsgopromo from '../../res/images/letsgopromo.png';
 
 const LetsGo = () => (
   <div>
-    <div className="header"></div>
-    <ScrollTracker />
-    <NavBar page="Portfolio" />
     <div className="portfoliopage__content--article">
       <h1><a id="barterout__heading" href="https://www.letsgoapp.social">Let's Go</a></h1>
       <p className="writing__para">

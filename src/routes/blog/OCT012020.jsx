@@ -1,5 +1,5 @@
 /**
- * @file OCT012020.js
+ * @file OCT012020.jsx
  * @description First blog post in October 2020.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
  * @version 0.1.3
@@ -7,14 +7,8 @@
 
 import React from 'react';
 
-import NavBar from '../../components/NavBar';
-import ScrollTracker from '../../components/ScrollTracker';
-
 const OCT012020 = () => (
   <div>
-    <div className="header"></div>
-    <ScrollTracker />
-    <NavBar page="blog" />
     <div className="portfoliopage__content--article">
       <h1>Modularizing a Javascript API Interface</h1>
       <p className="writing__para">
