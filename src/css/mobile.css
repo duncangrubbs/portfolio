@@ -11,12 +11,8 @@
   .writing {
     width: 90vw;
   }
-  .navbar__content--left {
-    display: none;
-  }
-  .navbar__content--right {
-    width: 100%;
-    justify-content: center;
+  .navbar__content {
+    margin: 0 8px;
   }
   .navbar__link.selected::after {
     display: none;
