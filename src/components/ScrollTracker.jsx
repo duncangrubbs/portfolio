@@ -11,11 +11,11 @@ import React, { Component } from 'react';
 class ScrollTracker extends Component {
   componentDidMount() {
     const self = document.getElementById('scroll-tracker');
-    
+
     document.addEventListener('scroll', (evt) => {
       const limit = Math.max(
         document.body.scrollHeight,
-        document.body.offsetHeight, 
+        document.body.offsetHeight,
         document.documentElement.clientHeight,
         document.documentElement.scrollHeight,
         document.documentElement.offsetHeight
@@ -23,8 +23,9 @@ class ScrollTracker extends Component {
       // Do some math
       const diff = limit - document.documentElement.clientHeight;
       const diffPercent = diff / limit;
-      const percent = evt.target.scrollingElement.scrollTop / (limit * diffPercent);
-      const pixCalc = (document.documentElement.clientWidth) * percent;
+      const percent =
+        evt.target.scrollingElement.scrollTop / (limit * diffPercent);
+      const pixCalc = document.documentElement.clientWidth * percent;
 
       // Update the width
       self.style.width = `${pixCalc}px`;
@@ -32,9 +33,7 @@ class ScrollTracker extends Component {
   }
 
   render() {
-    return (
-      <div id="scroll-tracker" />
-    );
+    return <div id="scroll-tracker" />;
   }
 }
 

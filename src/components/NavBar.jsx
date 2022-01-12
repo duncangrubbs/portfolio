@@ -21,7 +21,8 @@ const NavBar = () => (
           className="navbar__link"
           activeClassName="selected"
           name="home"
-          to="/">
+          to="/"
+        >
           Home
         </NavLink>
         <NavLink
@@ -29,7 +30,8 @@ const NavBar = () => (
           className="navbar__link"
           activeClassName="selected"
           name="blog"
-          to="/blog">
+          to="/blog"
+        >
           Blog
         </NavLink>
       </div>

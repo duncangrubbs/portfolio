@@ -6,10 +6,7 @@
  */
 
 import React from 'react';
-import {
-  Route,
-  Switch,
-} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Home from './Home';
 
@@ -21,14 +18,14 @@ import Blog from './Blog';
 import OCT012020 from './blog/OCT012020';
 
 export default (
-  <Switch>
-    <Route exact path="/" component={Home} />
+  <Routes>
+    <Route exact path="/" element={<Home />} />
 
-    <Route exact path="/portfolio/barterout" component={BarterOut} />
-    <Route exact path="/portfolio/letsgo" component={LetsGo} />
-    <Route exact path="/portfolio/hack4health" component={Hack4Health} />
+    <Route exact path="/portfolio/barterout" element={<BarterOut />} />
+    <Route exact path="/portfolio/letsgo" element={<LetsGo />} />
+    <Route exact path="/portfolio/hack4health" element={<Hack4Health />} />
 
-    <Route exact path="/blog" component={Blog} />
-    <Route exact path="/blog/oct012020" component={OCT012020} />
-  </Switch>
+    <Route exact path="/blog" element={<Blog />} />
+    <Route exact path="/blog/oct012020" element={<OCT012020 />} />
+  </Routes>
 );

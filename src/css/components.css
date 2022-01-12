@@ -14,7 +14,8 @@
   margin: 0 auto;
 }
 
-.navbar__content--right, .navbar__content--left {
+.navbar__content--right,
+.navbar__content--left {
   display: flex;
   width: 50%;
   align-items: center;
@@ -38,12 +39,12 @@
   color: var(--theme-text-color);
   cursor: pointer;
   text-decoration: none;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .navbar__link:hover {
   color: var(--theme-bold-text-color);
-  background: none;;
+  background: none;
 }
 
 .navbar__link.selected {
