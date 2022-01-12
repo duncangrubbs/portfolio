@@ -3,7 +3,7 @@
  * @description Shows the scroll depth percentage as a bar on
  * top of the screen.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.3
+ * @version 0.1.5
  */
 
 import React, { Component } from 'react';

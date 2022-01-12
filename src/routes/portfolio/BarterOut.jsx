@@ -2,7 +2,7 @@
  * @file BarterOut.jsx
  * @description React route for BarterOut.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.3
+ * @version 0.1.5
  */
 
 import React from 'react';
@@ -12,7 +12,7 @@ import barterout from '../../res/images/barterout.png';
 const BarterOut = () => (
   <div>
     <div className="portfoliopage__content--article">
-      <h1><a id="barterout__heading" href="https://github.com/BarterOut">BarterOut</a></h1>
+      <h1>BarterOut</h1>
       <p className="writing__para">
         BarterOut is a web application that focuses on making peer-to-peer
         used textbook transactions easier. For over two years, I have worked

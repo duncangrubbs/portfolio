@@ -2,7 +2,7 @@
  * @file App.jsx
  * @description Entry component.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.3
+ * @version 0.1.5
  */
 
 import React from 'react';

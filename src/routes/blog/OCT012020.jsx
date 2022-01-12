@@ -2,7 +2,7 @@
  * @file OCT012020.jsx
  * @description First blog post in October 2020.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.3
+ * @version 0.1.5
  */
 
 import React from 'react';

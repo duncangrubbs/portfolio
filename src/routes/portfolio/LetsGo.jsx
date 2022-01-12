@@ -2,7 +2,7 @@
  * @file LetsGo.jsx
  * @description React route for Let's Go.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.3
+ * @version 0.1.5
  */
 
 import React from 'react';
@@ -13,7 +13,7 @@ import letsgopromo from '../../res/images/letsgopromo.png';
 const LetsGo = () => (
   <div>
     <div className="portfoliopage__content--article">
-      <h1><a id="barterout__heading" href="https://www.letsgoapp.social">Let's Go</a></h1>
+      <h1>Let's Go</h1>
       <p className="writing__para">
         Recently, I returned to a project I had started a few years
         ago with the hope of rebuilding the API in a more robust,

@@ -2,7 +2,7 @@
  * @file Home.jsx
  * @description React route for homepage.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.3
+ * @version 0.1.5
  */
 
 import React from 'react';
@@ -21,7 +21,7 @@ const Home = () => (
             startup creating the next generation of data infrastructure for venture fundraising.
             I love working on side projects and have experience with&nbsp;
             <a rel="noopenner external" href="https://github.com/duncangrubbs/lyrics-to-artist">Python</a>,&nbsp;
-            <a rel="noopenner external" href="https://github.com/duncangrubbs/dinner-time">Typescript</a>,&nbsp;
+            <a rel="noopenner external" href="https://github.com/duncangrubbs/dinner-time">Typescript</a>,
             and <a rel="noopenner external" href="https://github.com/duncangrubbs/L-system">Java</a>.
             Outside of programming I enjoy UI design, DJing, cooking, and backpacking.
             You can find me on&nbsp;<a rel="noopenner external" href="https://github.com/duncangrubbs">Github</a>

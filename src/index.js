@@ -2,7 +2,7 @@
  * @file index.js
  * @description Wrapper for react.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.3
+ * @version 0.1.5
  */
 
 import React from 'react';
@@ -11,7 +11,6 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 // CSS
-import './css/background.css';
 import './css/main.css';
 import './css/components.css';
 import './css/mobile.css';
