@@ -13,7 +13,7 @@ const Home = () => (
     <div className="home__content">
       <div className="home__grid-item">
         <div className="glass-container">
-          <h1>Hey, I&apos;m Duncan</h1>
+          <h1>Hey 👋, I&apos;m Duncan</h1>
           <p>
             I&apos;m a software engineer who specializes in API design and
             full-stack web development. I previously worked at{' '}
@@ -61,7 +61,7 @@ const Home = () => (
           <br />
           <p>
             Feel free to reach out for freelance web development at{' '}
-            <em>duncan.grubbs[at]gmail[dot]com</em>
+            <em>duncan.grubbs [at] gmail</em>
           </p>
         </div>
       </div>

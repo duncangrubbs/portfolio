@@ -3,8 +3,9 @@
 .navbar {
   display: flex;
   color: var(--theme-bold-text-color);
-  height: 64px;
+  height: 4rem;
   width: 100vw;
+  margin-bottom: 16px;
 }
 
 .navbar__content {
@@ -39,7 +40,6 @@
   color: var(--theme-text-color);
   cursor: pointer;
   text-decoration: none;
-  transition: all 0.2s ease;
 }
 
 .navbar__link:hover {
@@ -47,18 +47,19 @@
   background: none;
 }
 
-.navbar__link.selected {
+.navbar__link.active {
   color: var(--theme-bold-text-color);
   font-weight: 500;
 }
 
-.navbar__link.selected::after {
+.navbar__link.active::after {
   content: '';
   display: block;
   position: absolute;
-  margin-top: 40px;
+  margin-top: 38px;
   width: 60px;
   height: 2px;
+  z-index: 10;
   background: var(--theme-primary-color);
 }
 

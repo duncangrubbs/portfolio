@@ -12,10 +12,7 @@
     width: 90vw;
   }
   .navbar__content {
-    margin: 0 8px;
-  }
-  .navbar__link.selected::after {
-    display: none;
+    width: 95%;
   }
   .portfolio__content {
     display: flex;

@@ -16,6 +16,7 @@ import Hack4Health from './portfolio/Hack4Health';
 
 import Blog from './Blog';
 import OCT012020 from './blog/OCT012020';
+import JAN122022 from './blog/JAN122022';
 
 export default (
   <Routes>
@@ -27,5 +28,6 @@ export default (
 
     <Route exact path="/blog" element={<Blog />} />
     <Route exact path="/blog/oct012020" element={<OCT012020 />} />
+    <Route exact path="/blog/jan122022" element={<JAN122022 />} />
   </Routes>
 );
