@@ -2,7 +2,7 @@
   "name": "duncangrubbs.github.io",
   "version": "0.1.5",
   "private": true,
-  "homepage": "https://duncangrubbs.github.io/",
+  "homepage": "https://duncangrubbs.github.io/home",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "global": "^4.4.0",
