@@ -15,8 +15,8 @@ const Home = () => (
         <div className="glass-container">
           <h1>Hey 👋, I&apos;m Duncan</h1>
           <p>
-            I&apos;m a software engineer who specializes in API design and
-            full-stack web development. I previously worked at{' '}
+            I&apos;m a software engineer who has experience in
+            full-stack web development and automation. I previously worked at{' '}
             <a href="https://factba.se/">FactSquared</a> and{' '}
             <a href="https://www.fiscalnote.com">FiscalNote</a> as a software
             engineer intern focusing on data science. I am currently helping
@@ -33,7 +33,7 @@ const Home = () => (
             ,&nbsp;
             <a
               rel="noopenner external"
-              href="https://github.com/duncangrubbs/dinner-time"
+              href="https://github.com/duncangrubbs/ozzy"
             >
               Typescript
             </a>
