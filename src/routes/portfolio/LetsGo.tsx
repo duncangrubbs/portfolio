@@ -1,14 +1,14 @@
 /**
- * @file LetsGo.jsx
+ * @file LetsGo.tsx
  * @description React route for Let's Go.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.5
+ * @version 0.1.6
  */
 
-import React from 'react';
+import React from "react";
 
-import letsgo from '../../res/images/letsgo.jpg';
-import letsgopromo from '../../res/images/letsgopromo.png';
+import letsgo from "../../res/images/letsgo.jpg";
+import letsgopromo from "../../res/images/letsgopromo.png";
 
 const LetsGo = () => (
   <div>
@@ -32,7 +32,7 @@ const LetsGo = () => (
 
       <p className="writing__para">
         I wrote the API in Node using Express and MongoDB. I was already
-        familiar with these two tools from work on{' '}
+        familiar with these two tools from work on{" "}
         <a href="/portfolio/barterout">BarterOut</a> and I felt like I would be
         able to make the fastest progress with them. That being said I learned a
         lot more about how to use them well. For example, using authentication

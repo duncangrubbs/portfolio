@@ -1,13 +1,13 @@
 /**
- * @file Polarization.jsx
+ * @file Polarization.tsx
  * @description Writing article route for the site.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.5
+ * @version 0.1.6
  */
 
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import ScrollTracker from '../../components/ScrollTracker';
+import ScrollTracker from "../../components/ScrollTracker";
 
 class Polarization extends Component {
   render() {

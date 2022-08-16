@@ -1,11 +1,11 @@
 /**
- * @file Hack4Health.jsx
+ * @file Hack4Health.tsx
  * @description React route for Hack4Health.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.5
+ * @version 0.1.6
  */
 
-import React from 'react';
+import React from "react";
 
 const Hack4Health = () => (
   <div>

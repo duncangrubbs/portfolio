@@ -1,11 +1,11 @@
 /**
- * @file OCT012020.jsx
+ * @file OCT012020.tsx
  * @description First blog post in October 2020.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.5
+ * @version 0.1.6
  */
 
-import React from 'react';
+import React from "react";
 
 const OCT012020 = () => (
   <div>
@@ -22,7 +22,7 @@ const OCT012020 = () => (
       <p className="writing__para">
         After building a lot of frontends in React, I got sick of re-writing the
         same code for interfacing with APIs. I would have so many different
-        components making API calls, and in each one I would have a{' '}
+        components making API calls, and in each one I would have a{" "}
         <code>fetch</code>
         &nbsp;statement in which I would have to set headers and options, do
         JSON parsing, and handle errors. Avoiding duplicate code is a common
@@ -67,15 +67,15 @@ const OCT012020 = () => (
       </p>
 
       <p className="writing__para">
-        In the <code>API</code> file I declare a &nbsp;<code>fetch</code>{' '}
-        function that will override the default{' '}
+        In the <code>API</code> file I declare a &nbsp;<code>fetch</code>{" "}
+        function that will override the default{" "}
         <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">
           fetch API
         </a>
         , this way I only have to declare my headers once, standardizing all of
         the requests I am making. Of course if you need the option of changing
         them, you can offer an optional method parameter to set them. Then, I
-        declared functions for <code>GET</code>, &nbsp;<code>POST</code>,{' '}
+        declared functions for <code>GET</code>, &nbsp;<code>POST</code>,{" "}
         <code>PUT</code>, and <code>DELETE</code> requests. These can simply
         take a &nbsp;<code>url</code> and return parsed JSON, taking the work
         out of the calling component. This also helps if the backend API
@@ -98,7 +98,7 @@ const OCT012020 = () => (
         element that nicely displays the error. In the component that made the
         original request, it would be as simple as adding a <code>
           catch
-        </code>{' '}
+        </code>{" "}
         statement that renders the error element object that is returned in the
         place of your choice. Again, taking work out of the components.
       </p>
@@ -108,7 +108,7 @@ const OCT012020 = () => (
         . I created a setup similar to the one I described above, with the hope
         of saving some time in the future, and it paid off. At some point, we
         changed the format of the <code>Authorization</code>&nbsp; header our
-        backend API accepted from <code>Token user_token</code> to{' '}
+        backend API accepted from <code>Token user_token</code> to{" "}
         <code>Bearer user_token</code>. Because we were using a fetch service,
         this was a one line fix on the frontend. We could just change where the
         headers we set in our <code>API</code> file and we were done.
@@ -120,7 +120,7 @@ const OCT012020 = () => (
         as far as you want. That being said, for small projects, you don't need
         a crazy complex architecture, and something this simple can suffice.
         Because these classes were so useful to me, I made a boilerplate called
-        ozzy, and you can find it on Github{' '}
+        ozzy, and you can find it on Github{" "}
         <a href="https://github.com/duncangrubbs/ozzy">here</a>. Since it is a
         boilerplate and not a library, it is meant to be completely
         configurable. You can find more details on what each file does, function

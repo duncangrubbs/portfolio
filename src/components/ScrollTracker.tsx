@@ -3,16 +3,16 @@
  * @description Shows the scroll depth percentage as a bar on
  * top of the screen.
  * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.5
+ * @version 0.1.6
  */
 
-import React, { Component } from 'react';
+import React, { useEffect } from "react";
 
-class ScrollTracker extends Component {
-  componentDidMount() {
-    const self = document.getElementById('scroll-tracker');
+const ScrollTracker = (): JSX.Element => {
+  useEffect(() => {
+    const self = document.getElementById("scroll-tracker");
 
-    document.addEventListener('scroll', (evt) => {
+    document.addEventListener("scroll", (evt: any) => {
       const limit = Math.max(
         document.body.scrollHeight,
         document.body.offsetHeight,
@@ -28,13 +28,11 @@ class ScrollTracker extends Component {
       const pixCalc = document.documentElement.clientWidth * percent;
 
       // Update the width
-      self.style.width = `${pixCalc}px`;
+      self!.style.width = `${pixCalc}px`;
     });
-  }
+  }, []);
 
-  render() {
-    return <div id="scroll-tracker" />;
-  }
-}
+  return <div className="fixed z-10 top-0 h-1 bg-red-600" />;
+};
 
 export default ScrollTracker;
