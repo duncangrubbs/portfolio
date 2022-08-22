@@ -20,11 +20,17 @@ const LetsGo = () => (
         retaining the ideas I had about the app in the first place. I wanted to
         work in a test driven way, focusing on making my code clean and
         testable. I learned so much building this API, with resources like&nbsp;
-        <a href="https://blog.bitsrc.io/build-a-unit-testing-suite-with-mocha-and-mongoose-eba06c3b3625?gi=b52955afa66d">
+        <a
+          className="link"
+          href="https://blog.bitsrc.io/build-a-unit-testing-suite-with-mocha-and-mongoose-eba06c3b3625?gi=b52955afa66d"
+        >
           this medium article
         </a>
         &nbsp;and&nbsp;
-        <a href="https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters">
+        <a
+          className="link"
+          href="https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters"
+        >
           this article about testing
         </a>
         &nbsp;being very helpful.
@@ -33,12 +39,14 @@ const LetsGo = () => (
       <p className="writing__para">
         I wrote the API in Node using Express and MongoDB. I was already
         familiar with these two tools from work on{" "}
-        <a href="/portfolio/barterout">BarterOut</a> and I felt like I would be
-        able to make the fastest progress with them. That being said I learned a
-        lot more about how to use them well. For example, using authentication
-        middleware with Express, decoupling the MongoDB connection script, and
-        using .env to hide environment variables were all huge learning
-        experiences.
+        <a className="link" href="/portfolio/barterout">
+          BarterOut
+        </a>{" "}
+        and I felt like I would be able to make the fastest progress with them.
+        That being said I learned a lot more about how to use them well. For
+        example, using authentication middleware with Express, decoupling the
+        MongoDB connection script, and using .env to hide environment variables
+        were all huge learning experiences.
       </p>
 
       <p className="writing__para">

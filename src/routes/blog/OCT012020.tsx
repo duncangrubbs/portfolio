@@ -69,7 +69,10 @@ const OCT012020 = () => (
       <p className="writing__para">
         In the <code>API</code> file I declare a &nbsp;<code>fetch</code>{" "}
         function that will override the default{" "}
-        <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">
+        <a
+          className="link"
+          href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        >
           fetch API
         </a>
         , this way I only have to declare my headers once, standardizing all of
@@ -104,7 +107,10 @@ const OCT012020 = () => (
       </p>
       <p className="writing__para">
         One small example of the usefulness of this idea in practice happened
-        while I was working on <a href="https://www.barterout.com">BarterOut</a>
+        while I was working on{" "}
+        <a className="link" href="https://www.barterout.com">
+          BarterOut
+        </a>
         . I created a setup similar to the one I described above, with the hope
         of saving some time in the future, and it paid off. At some point, we
         changed the format of the <code>Authorization</code>&nbsp; header our
@@ -121,11 +127,13 @@ const OCT012020 = () => (
         a crazy complex architecture, and something this simple can suffice.
         Because these classes were so useful to me, I made a boilerplate called
         ozzy, and you can find it on Github{" "}
-        <a href="https://github.com/duncangrubbs/ozzy">here</a>. Since it is a
-        boilerplate and not a library, it is meant to be completely
-        configurable. You can find more details on what each file does, function
-        documentation, tests, and the source code in Github. Plus it&apos;s just
-        a few hundred lines of code!
+        <a className="link" href="https://github.com/duncangrubbs/ozzy">
+          here
+        </a>
+        . Since it is a boilerplate and not a library, it is meant to be
+        completely configurable. You can find more details on what each file
+        does, function documentation, tests, and the source code in Github. Plus
+        it&apos;s just a few hundred lines of code!
       </p>
     </div>
   </div>

@@ -55,7 +55,7 @@ code {
 }
 
 .link {
-  @apply underline hover:bg-indigo-600 hover:text-white;
+  @apply underline hover:bg-indigo-600 hover:text-white transition;
 }
 
 .writing__para {
