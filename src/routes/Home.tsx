@@ -16,23 +16,24 @@ const Home = () => (
         I&apos;m a full-stack software engineer at{" "}
         <a className="link" href="https://predata.com/">
           Predata
-        </a>
-        . I previously worked at{" "}
-        <a className="link" href="https://factba.se/">
-          FactSquared
         </a>{" "}
-        and{" "}
-        <a className="link" href="https://www.fiscalnote.com">
-          FiscalNote
-        </a>{" "}
-        as a software engineer intern focusing on data science. I am also
-        helping build{" "}
+        and a founding software engineer at{" "}
         <a className="link" href="https://www.flowlie.com">
           Flowlie
         </a>
         , an early stage startup creating the next generation data
-        infrastructure for startups, angels, VCs, and syndicators. I love
-        working on side projects and have experience with&nbsp;
+        infrastructure for angels, VCs, syndicators, and startups. I previously
+        worked at{" "}
+        <a className="link" href="https://www.bnymellon.com">
+          BNY Mellon
+        </a>{" "}
+        as a production services analyst focusing on automation engineering and{" "}
+        <a className="link" href="https://www.fiscalnote.com">
+          FiscalNote
+        </a>{" "}
+        as a data science intern mostly working on NLP and machine vision
+        pipelines. I love working on side projects and have experience
+        with&nbsp;
         <a
           rel="noopenner external"
           className="link"
