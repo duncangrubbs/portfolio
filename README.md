@@ -1,16 +1,11 @@
 # duncangrubbs.com
 
-> My portfolio, built with React
+> My portfolio and blog
 
-### Tools Used
+### Built with
 
-- React
+- React (CRA)
 - Tailwind
 - Typescript
 - Vercel
 - Prettier
-
-### Commands
-
-- `npm start` to start dev server
-- `npm run build` to build
