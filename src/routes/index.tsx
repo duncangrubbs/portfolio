@@ -1,10 +1,3 @@
-/**
- * @file index.tsx
- * @description All client-side routes for react-router.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
@@ -27,7 +20,7 @@ export default (
     <Route path="/portfolio/hack4health" element={<Hack4Health />} />
 
     <Route path="/blog" element={<Blog />} />
-    <Route path="/blog/oct012020" element={<OCT012020 />} />
-    <Route path="/blog/jan122022" element={<JAN122022 />} />
+    <Route path="/blog/1" element={<OCT012020 />} />
+    <Route path="/blog/2" element={<JAN122022 />} />
   </Routes>
 );

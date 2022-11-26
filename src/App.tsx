@@ -1,10 +1,3 @@
-/**
- * @file App.tsx
- * @description Entry component.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 

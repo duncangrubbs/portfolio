@@ -1,10 +1,3 @@
-/**
- * @file OCT012020.tsx
- * @description First blog post in October 2020.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React from "react";
 
 const OCT012020 = () => (

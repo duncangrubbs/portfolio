@@ -1,16 +1,9 @@
-/**
- * @file Blog.tsx
- * @description React route for blog.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Blog = () => (
   <div>
-    <Link to="/blog/jan122022">
+    <Link to="/blog/2">
       <div className="glass-container glass-container__blog">
         <h2>A tiny date hydration middleware</h2>
         <p className="mt-2">
@@ -24,7 +17,7 @@ const Blog = () => (
         </p>
       </div>
     </Link>
-    <Link to="/blog/oct012020">
+    <Link to="/blog/1">
       <div className="glass-container glass-container__blog">
         <h2>Modularize your API interface in Javascript</h2>
         <p className="mt-2">

@@ -1,10 +1,3 @@
-/**
- * @file JAN122022.tsx
- * @description Second blog post.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -57,7 +50,7 @@ const JAN122022 = () => (
         sending dates to the frontend from the API, how could we handle that
         situation? After giving it some thought we decided why not create a
         wrapper that would let us apply middleware to our frontend request
-        handlers. In my <Link to="/blog/oct012020">earlier</Link> blog post, I
+        handlers. In my <Link to="/blog/1">earlier</Link> blog post, I
         introduced{" "}
         <a className="link" href="https://github.com/duncangrubbs/ozzy">
           ozzy

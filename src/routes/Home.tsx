@@ -1,19 +1,13 @@
-/**
- * @file Home.tsx
- * @description React route for homepage.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React from "react";
 import { Link } from "react-router-dom";
+import BlogPostCard from "../components/BlogPostCard";
 
 const Home = () => (
   <div>
     <div className="pb-4 mb-8 border-dashed border-b-2 border-indigo-600">
       <h1>Hey 👋, I&apos;m Duncan</h1>
       <p>
-        I&apos;m a full-stack software engineer at{" "}
+        I&apos;m a software engineer at{" "}
         <a className="link" href="https://predata.com/">
           Predata
         </a>{" "}
@@ -82,28 +76,19 @@ const Home = () => (
         <em>duncan.grubbs [at] gmail</em>
       </p>
     </div>
-    <h1>Portfolio</h1>
+    <h1>Latest Post</h1>
     <div className="flex flex-col">
-      <Link to="/portfolio/barterout" className="glass-container">
-        <h2>BarterOut</h2>
-        <p className="mt-2">
-          BarterOut is a web application that focuses on making peer-to-peer
-          used textbook transactions easier. For the last year, I have worked in
-          a small team building the client-side of the site, as well as the API
-          (backend) infrastructure.
-        </p>
-      </Link>
-
-      <Link to="/portfolio/letsgo" className="glass-container">
-        <h2>Let&apos;s Go</h2>
-        <p className="mt-2">
-          Recently, I returned to a project I had started a few years ago with
-          the hope of rebuilding the API in a more robust, clean way, while
-          still retaining the ideas I had about the app in the first place. I
-          wanted to work in a test driven way, focusing on making my code clean
-          and testable.
-        </p>
-      </Link>
+      <BlogPostCard
+        text="I have helping to build Flowlie since January of 2021 and it has been
+          an incredible learning experience. Our entire stack is written in
+          Typescript (React and Express) and we use MongoDB for our database.
+          One issue that we were running into quite often is that when we were
+          sending dates from our frontend to our API or vice versa they we
+          getting serialized as strings. So for example, on our frontend we
+          would initialize ..."
+        title="A tiny date hydration middleware"
+        link="/blog/2"
+      />
     </div>
   </div>
 );

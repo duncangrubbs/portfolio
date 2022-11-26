@@ -1,11 +1,3 @@
-/**
- * @file ScrollTracker.js
- * @description Shows the scroll depth percentage as a bar on
- * top of the screen.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React, { useEffect } from "react";
 
 const ScrollTracker = (): JSX.Element => {

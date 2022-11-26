@@ -1,10 +1,3 @@
-/**
- * @file BarterOut.tsx
- * @description React route for BarterOut.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React from "react";
 
 import barterout from "../../res/images/barterout.png";

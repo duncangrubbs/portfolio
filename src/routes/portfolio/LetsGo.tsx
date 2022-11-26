@@ -1,10 +1,3 @@
-/**
- * @file LetsGo.tsx
- * @description React route for Let's Go.
- * @author Duncan Grubbs <duncan.grubbs@gmail.com>
- * @version 0.1.6
- */
-
 import React from "react";
 
 import letsgo from "../../res/images/letsgo.jpg";
