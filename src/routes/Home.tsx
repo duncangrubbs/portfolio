@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import BlogPostCard from "../components/BlogPostCard";
 
 const Home = () => (
@@ -11,20 +10,16 @@ const Home = () => (
         <a className="link" href="https://www.fiscalnote.com">
           FiscalNote
         </a>{" "}
-        and a founding software engineer at{" "}
+        working on applying AI to geopolitical and supply-chain risk. I previously was a founding software engineer at{" "}
         <a className="link" href="https://www.flowlie.com">
           Flowlie
         </a>
         , an early stage startup creating the modern operating system for
-        venture fundraising. I previously worked at{" "}
+        venture fundraising and a production services analyst at{" "}
         <a className="link" href="https://www.bnymellon.com">
           BNY Mellon
         </a>{" "}
-        as a production services analyst focusing on automation engineering and{" "}
-        <a className="link" href="https://predata.com/">
-          Predata
-        </a>{" "}
-        as a software engineer. I love working on side projects and have
+        focusing on automation engineering. I love working on side projects and have
         experience with&nbsp;
         <a
           rel="noopenner external"
