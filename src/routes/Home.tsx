@@ -18,9 +18,8 @@ const Home = () => (
         venture fundraising and a production services analyst at{" "}
         <a className="link" href="https://www.bnymellon.com">
           BNY Mellon
-        </a>{" "}
-        focusing on automation engineering. I love working on side projects and
-        have experience with&nbsp;
+        </a>
+        . I love working on side projects and have experience with&nbsp;
         <a
           rel="noopenner external"
           className="link"
