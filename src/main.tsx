@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
@@ -7,6 +6,7 @@ import ScrollTracker from "./components/ScrollTracker";
 import index from "./routes/index";
 
 import "./index.css";
+import React from "react";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

@@ -1,5 +1,3 @@
-import React from "react";
-
 const OCT012020 = () => (
   <div>
     <div className="portfoliopage__content--article">
