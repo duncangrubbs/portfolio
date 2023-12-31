@@ -1,13 +1,15 @@
 import React from "react";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-
 import NavBar from "./components/NavBar";
 import ScrollTracker from "./components/ScrollTracker";
 
 import index from "./routes/index";
 
-export default function App() {
-  return (
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
     <BrowserRouter>
       <ScrollTracker />
       <div className="header"></div>
@@ -16,5 +18,5 @@ export default function App() {
         {index}
       </main>
     </BrowserRouter>
-  );
-}
+  </React.StrictMode>
+);

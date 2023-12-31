@@ -1,10 +1,9 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Blog = () => (
   <div>
     <Link to="/blog/2">
-      <div className="glass-container glass-container__blog">
+      <div className="my-4 border border-gray-400 rounded-md p-4 hover:border-indigo-500 transition glass-container__blog">
         <h2>A tiny date hydration middleware</h2>
         <p className="mt-2">
           I have helping to build Flowlie since January of 2021 and it has been
@@ -18,7 +17,7 @@ const Blog = () => (
       </div>
     </Link>
     <Link to="/blog/1">
-      <div className="glass-container glass-container__blog">
+      <div className="my-4 border border-gray-400 rounded-md p-4 hover:border-indigo-500 transition glass-container__blog">
         <h2>Modularize your API interface in Javascript</h2>
         <p className="mt-2">
           After building a lot frontends in React, I got sick of re-writing the

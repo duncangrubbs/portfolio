@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => (
@@ -8,13 +7,21 @@ const NavBar = () => (
     </NavLink>
     <div className="flex flex-row space-x-4">
       <NavLink
-        className={({ isActive }) => (isActive ? "selected" : "navbar__link")}
+        className={({ isActive }) =>
+          isActive
+            ? "font-semibold text-base text-white"
+            : "text-base text-gray-50"
+        }
         to="/"
       >
         Home
       </NavLink>
       <NavLink
-        className={({ isActive }) => (isActive ? "selected" : "navbar__link")}
+        className={({ isActive }) =>
+          isActive
+            ? "font-semibold text-base text-white"
+            : "text-base text-gray-50"
+        }
         to="/blog"
       >
         Blog
