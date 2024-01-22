@@ -49,3 +49,7 @@ h2 {
 p {
   @apply text-base leading-7;
 }
+
+.link {
+  @apply underline hover:bg-indigo-600 hover:text-white transition;
+}
